@@ -6,6 +6,7 @@ from gi.repository import Gtk
 from mcomix import i18n
 from mcomix.i18n import _
 
+
 class _CommentsDialog(Gtk.Dialog):
 
     def __init__(self, window):
@@ -74,7 +75,7 @@ class _CommentsDialog(Gtk.Dialog):
 
         name = os.path.basename(path)
 
-        page = Gtk.VBox(False)
+        page = Gtk.Box.new(Gtk.Orientation.VERTICAL, 0)
         page.set_border_width(8)
 
         scrolled = Gtk.ScrolledWindow()

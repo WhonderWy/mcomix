@@ -447,9 +447,9 @@ class OpenWithEditor(Gtk.Dialog):
         """ Create and lay out UI components. """
         # All these boxes basically are just for adding a 4px border
         vbox = self.get_content_area()
-        hbox = Gtk.HBox()
+        hbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         vbox.pack_start(hbox, True, True, 4)
-        content = Gtk.VBox()
+        content = Gtk.Box.new(Gtk.Orientation.VERTICAL, 0)
         content.set_spacing(6)
         hbox.pack_start(content, True, True, 4)
 
@@ -458,7 +458,7 @@ class OpenWithEditor(Gtk.Dialog):
         scroll_window.add(self._command_tree)
         content.pack_start(scroll_window, True, True, 0)
 
-        buttonbox = Gtk.HBox()
+        buttonbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         buttonbox.pack_start(self._add_button, False, False, 0)
         buttonbox.pack_start(self._add_sep_button, False, False, 0)
         buttonbox.pack_start(self._remove_button, False, False, 0)
@@ -466,7 +466,7 @@ class OpenWithEditor(Gtk.Dialog):
         buttonbox.pack_start(self._down_button, False, False, 0)
         content.pack_start(buttonbox, False, False, 0)
 
-        preview_box = Gtk.HBox()
+        preview_box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         preview_box.pack_start(Gtk.Label(_('Preview:')), False, False, 0)
         preview_box.pack_start(self._test_field, True, True, 4)
         preview_box.pack_start(self._run_button, False, False, 0)

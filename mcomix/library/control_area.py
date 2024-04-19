@@ -16,17 +16,17 @@ from mcomix.i18n import _
 _COLLECTION_ALL = -1
 
 
-class _ControlArea(Gtk.HBox):
+class _ControlArea(Gtk.Box):
 
     """The _ControlArea is the bottom area of the library window where
     information is displayed and controls such as buttons reside.
     """
 
     def __init__(self, library):
-        super(_ControlArea, self).__init__(False, 12)
+        super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=12)
+        self.set_border_width(10)
 
         self._library = library
-        self.set_border_width(10)
 
         borderbox = Gtk.Frame()
         borderbox.set_shadow_type(Gtk.ShadowType.ETCHED_IN)
@@ -36,7 +36,7 @@ class _ControlArea(Gtk.HBox):
         insidebox.set_border_width(1)
         insidebox.set_state(Gtk.StateType.ACTIVE)
 
-        infobox = Gtk.VBox(False, 5)
+        infobox = Gtk.Box.new(Gtk.Orientation.VERTICAL, 5)
         infobox.set_border_width(10)
         self.pack_start(borderbox, True, True, 0)
         borderbox.add(insidebox)
@@ -59,12 +59,12 @@ class _ControlArea(Gtk.HBox):
         self._dirlabel.set_selectable(True)
         infobox.pack_start(self._dirlabel, False, False, 0)
 
-        vbox = Gtk.VBox(False, 10)
+        vbox = Gtk.Box.new(Gtk.Orientation.VERTICAL, 10)
         vbox.set_size_request(350, -1)
         self.pack_start(vbox, False, False, 0)
 
         # First line of controls, containing the search box
-        hbox = Gtk.HBox(False)
+        hbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         vbox.pack_start(hbox, True, True, 0)
 
         label = Gtk.Label(label=_('_Search:'))
@@ -79,7 +79,7 @@ class _ControlArea(Gtk.HBox):
         label.set_mnemonic_widget(search_entry)
 
         # Last line of controls, containing buttons like 'Open'
-        hbox = Gtk.HBox(False, 10)
+        hbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 10)
         vbox.pack_end(hbox, True, True, 0)
 
         watchlist_button = Gtk.Button(label=_("_Watch list"), use_underline=True)

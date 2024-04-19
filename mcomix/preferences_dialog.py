@@ -503,7 +503,7 @@ class _PreferencesDialog(Gtk.Dialog):
                 prefs['sort order'],
                 self._sort_order_changed_cb)
 
-        box = Gtk.HBox()
+        box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         box.pack_start(sortkey_box, True, True, 0)
         box.pack_start(sortorder_box, True, True, 0)
 
@@ -550,7 +550,7 @@ class _PreferencesDialog(Gtk.Dialog):
                 prefs['sort archive order'],
                 self._sort_archive_order_changed_cb)
 
-        box = Gtk.HBox()
+        box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         box.pack_start(sortkey_box, True, True, 0)
         box.pack_start(sortorder_box, True, True, 0)
 

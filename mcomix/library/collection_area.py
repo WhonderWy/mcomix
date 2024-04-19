@@ -150,7 +150,8 @@ class _CollectionArea(Gtk.ScrolledWindow):
 
     def add_collection(self, *args):
         """Add a new collection to the library, through a dialog."""
-        add_dialog = message_dialog.MessageDialog(self._library, 0, Gtk.MessageType.INFO,
+        add_dialog = message_dialog.MessageDialog(
+            self._library, 0, Gtk.MessageType.INFO,
             Gtk.ButtonsType.OK_CANCEL)
         add_dialog.set_auto_destroy(False)
         add_dialog.set_default_response(Gtk.ResponseType.OK)
@@ -159,8 +160,10 @@ class _CollectionArea(Gtk.ScrolledWindow):
             _('Please enter a name for the new collection.')
         )
 
-        box = Gtk.HBox() # To get nice line-ups with the padding.
+        # To get nice line-ups with the padding.
+        box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         add_dialog.vbox.pack_start(box, True, True, 0)
+
         entry = Gtk.Entry()
         entry.set_activates_default(True)
         box.pack_start(entry, True, True, 6)
@@ -245,7 +248,8 @@ class _CollectionArea(Gtk.ScrolledWindow):
             old_name = self._library.backend.get_collection_name(collection)
         except Exception:
             return
-        rename_dialog = message_dialog.MessageDialog(self._library, 0,
+        rename_dialog = message_dialog.MessageDialog(
+            self._library, 0,
             Gtk.MessageType.INFO, Gtk.ButtonsType.OK_CANCEL)
         rename_dialog.set_auto_destroy(False)
         rename_dialog.set_text(
@@ -254,8 +258,10 @@ class _CollectionArea(Gtk.ScrolledWindow):
         )
         rename_dialog.set_default_response(Gtk.ResponseType.OK)
 
-        box = Gtk.HBox() # To get nice line-ups with the padding.
+        # To get nice line-ups with the padding.
+        box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         rename_dialog.vbox.pack_start(box, True, True, 0)
+
         entry = Gtk.Entry()
         entry.set_text(old_name)
         entry.set_activates_default(True)

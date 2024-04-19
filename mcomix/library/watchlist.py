@@ -72,11 +72,11 @@ class WatchListDialog(Gtk.Dialog):
         remove_button.set_sensitive(False)
         remove_button.connect('clicked', self._remove_cb)
 
-        button_box = Gtk.VBox()
+        button_box = Gtk.Box.new(Gtk.Orientation.VERTICAL, 0)
         button_box.pack_start(add_button, False, True, 0)
         button_box.pack_start(remove_button, False, True, 2)
 
-        main_box = Gtk.HBox()
+        main_box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         scroll_window = Gtk.ScrolledWindow()
         scroll_window.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
         scroll_window.add(self._treeview)

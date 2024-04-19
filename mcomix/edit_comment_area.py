@@ -5,12 +5,13 @@ from gi.repository import Gdk, Gtk
 from mcomix import tools
 from mcomix.i18n import _
 
-class _CommentArea(Gtk.VBox):
+
+class _CommentArea(Gtk.Box):
 
     """The area used for displaying and handling non-image files."""
 
     def __init__(self, edit_dialog):
-        super(_CommentArea, self).__init__()
+        super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self._edit_dialog = edit_dialog
 
         scrolled = Gtk.ScrolledWindow()

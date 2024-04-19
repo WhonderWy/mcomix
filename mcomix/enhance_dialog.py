@@ -35,7 +35,7 @@ class _EnhanceImageDialog(Gtk.Dialog):
         self._enhancer = window.enhancer
         self._block = False
 
-        vbox = Gtk.VBox(False, 10)
+        vbox = Gtk.Box.new(Gtk.Orientation.VERTICAL, 10)
         self.set_border_width(4)
         vbox.set_border_width(6)
         self.vbox.add(vbox)
@@ -45,10 +45,10 @@ class _EnhanceImageDialog(Gtk.Dialog):
         vbox.pack_start(self._hist_image, True, True, 0)
         vbox.pack_start(Gtk.Separator.new(Gtk.Orientation.HORIZONTAL), True, True, 0)
 
-        hbox = Gtk.HBox(False, 4)
+        hbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 4)
         vbox.pack_start(hbox, False, False, 2)
-        vbox_left = Gtk.VBox(False, 4)
-        vbox_right = Gtk.VBox(False, 4)
+        vbox_left = Gtk.Box.new(Gtk.Orientation.VERTICAL, 4)
+        vbox_right = Gtk.Box.new(Gtk.Orientation.VERTICAL, 4)
         hbox.pack_start(vbox_left, False, False, 2)
         hbox.pack_start(vbox_right, True, True, 2)
 

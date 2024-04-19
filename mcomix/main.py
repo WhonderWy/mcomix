@@ -72,7 +72,9 @@ class MainWindow(Gtk.Window):
         self._spacing = prefs['space between two pages']
         self._waiting_for_redraw = False
 
-        self._image_box = Gtk.HBox(False, 2) # XXX transitional(kept for osd.py)
+        # XXX transitional(kept for osd.py)
+        self._image_box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 2)
+
         self._main_layout = Gtk.Layout()
         # Wrap main layout into an event box so
         # we  can change its background color.
