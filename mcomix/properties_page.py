@@ -15,10 +15,11 @@ class _Page(Gtk.ScrolledWindow):
     def __init__(self):
         super(_Page, self).__init__()
         self.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
+        self.set_border_width(12)
+
         self._vbox = Gtk.Box.new(Gtk.Orientation.VERTICAL, 12)
         self.add(self._vbox)
 
-        self.set_border_width(12)
         topbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 12)
         self._vbox.pack_start(topbox, True, True, 0)
         self._thumb = Gtk.Image()

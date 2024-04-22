@@ -35,7 +35,7 @@ class _PreferenceSection(Gtk.Box):
         left_box = Gtk.Box.new(Gtk.Orientation.VERTICAL, 6)
         right_box = Gtk.Box.new(Gtk.Orientation.VERTICAL, 6)
 
-        if self._right_column_width != None:
+        if self._right_column_width is not None:
             right_box.set_size_request(self._right_column_width, -1)
 
         hbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 12)
