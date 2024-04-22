@@ -83,7 +83,7 @@ class _CommentsDialog(Gtk.Dialog):
         page.pack_start(scrolled, True, True, 0)
 
         outbox = Gtk.EventBox()
-        scrolled.add_with_viewport(outbox)
+        scrolled.add(outbox)
 
         inbox = Gtk.EventBox()
         inbox.set_border_width(6)

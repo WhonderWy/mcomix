@@ -16,7 +16,7 @@ class _Page(Gtk.ScrolledWindow):
         super(_Page, self).__init__()
         self.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
         self._vbox = Gtk.Box.new(Gtk.Orientation.VERTICAL, 12)
-        self.add_with_viewport(self._vbox)
+        self.add(self._vbox)
 
         self.set_border_width(12)
         topbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 12)
