@@ -53,15 +53,15 @@ class Pageselector(Gtk.Dialog):
         preview_box.set_border_width(5)
         preview_box.set_spacing(5)
         preview_box.pack_start(self._image_preview, True, True, 0)
-        preview_box.pack_end(self._page_selector, False, True, 0)
+        preview_box.pack_end(self._page_selector, False, False, 0)
         # Below them, group selection spinner and current page label
         selection_box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         selection_box.set_border_width(5)
         selection_box.pack_start(self._page_spinner, True, True, 0)
-        selection_box.pack_end(self._pages_label, False, True, 0)
+        selection_box.pack_end(self._pages_label, False, False, 0)
 
         self.get_content_area().pack_start(preview_box, True, True, 0)
-        self.get_content_area().pack_end(selection_box, False, True, 0)
+        self.get_content_area().pack_end(selection_box, False, False, 0)
         self.show_all()
 
         self._selector_adjustment.connect('value-changed', self._cb_value_changed)
