@@ -62,12 +62,6 @@ class _Page(Gtk.ScrolledWindow):
         label.set_selectable(True)
         self._mainbox.pack_start(label, False, False, 0)
 
-        # XXX: Was originally Gtk.VBox(True, True, 0) -- second boolean??
-        spacer = Gtk.Box.new(Gtk.Orientation.VERTICAL, 0)
-        spacer.set_homogeneous(True)
-        # Just to add space (better way?)
-        self._mainbox.pack_start(spacer, True, True, 0)
-
     def set_main_info(self, info):
         """Set the information in the main info box (below the filename) to
         the values in the sequence <info>.
@@ -76,7 +70,7 @@ class _Page(Gtk.ScrolledWindow):
             label = Gtk.Label(label=text)
             label.set_alignment(0, 0.5)
             label.set_selectable(True)
-            self._mainbox.pack_start(label, False, False, 0)
+            self._mainbox.pack_end(label, False, False, 0)
 
     def set_secondary_info(self, info):
         """Set the information below the main info box to the values in the

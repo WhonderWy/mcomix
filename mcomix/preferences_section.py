@@ -19,16 +19,11 @@ class _PreferenceSection(Gtk.Box):
         super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self._right_column_width = right_column_width
         self.contentbox = Gtk.Box.new(Gtk.Orientation.VERTICAL, 6)
+        self.contentbox.set_margin_start(9)
         label = labels.BoldLabel(header)
         label.set_alignment(0, 0.5)
-        hbox = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
-        # XXX: Was originally Gtk.HBox(True, True, 0) -- second bool??
-        spacer = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
-        spacer.set_homogeneous(True)
-        hbox.pack_start(spacer, False, False, 6)
-        hbox.pack_start(self.contentbox, True, True, 0)
         self.pack_start(label, False, False, 0)
-        self.pack_start(hbox, False, False, 6)
+        self.pack_start(self.contentbox, True, True, 0)
 
     def new_split_vboxes(self):
         """Return two new VBoxes that are automatically put in the section
