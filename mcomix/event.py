@@ -554,10 +554,11 @@ class EventHandler(object):
                 event.y_root == self._pressed_pointer_pos_y and \
                 not self._window.was_out_of_focus:
 
-                if event.get_state() & Gdk.ModifierType.SHIFT_MASK:
-                    self._flip_page(10)
-                else:
-                    self._flip_page(1)
+                if "mouse click flip page" in prefs and prefs["mouse click flip page"]:
+                    if event.get_state() & Gdk.ModifierType.SHIFT_MASK:
+                        self._flip_page(10)
+                    else:
+                        self._flip_page(1)
 
             else:
                 self._window.was_out_of_focus = False
