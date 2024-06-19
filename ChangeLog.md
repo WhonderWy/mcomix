@@ -1,3 +1,11 @@
+# MComix 3.1.1
+## In development
+
+### Bug fixes
+
+- Added official mime types for CBZ/CBR comic books to desktop
+  metadata file.
+
 # MComix 3.1.0
 ## Release date: 2024-01-21
 
