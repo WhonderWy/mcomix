@@ -100,8 +100,8 @@ LHA_FORMATS = (
         ('application/x-lzh', 'application/x-lha', 'application/x-lzh-compressed'),
         ('lha', 'lzh'))
 PDF_FORMATS = (
-        ('application/pdf',),
-        ('pdf',))
+        ('application/pdf', 'application/x-cbp'),
+        ('pdf', 'cbp'))
 MOBI_FORMATS = (
         ('application/vnd.amazon.mobi8-ebook',),
         ('azw3',))

@@ -22,5 +22,10 @@
         <comment xml:lang="en">Comic Book Archive (7zip compressed)</comment>
         <glob pattern="*.cb7"/>
     </mime-type>
+    <mime-type type="application/x-cbp">
+        <sub-class-of type="application/pdf"/>
+        <comment xml:lang="en">Comic Book (PDF format)</comment>
+        <glob pattern="*.cbp"/>
+    </mime-type>
 </mime-info>
 
