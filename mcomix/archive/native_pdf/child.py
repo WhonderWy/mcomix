@@ -6,7 +6,10 @@ import multiprocessing as mp
 from PIL import Image
 from typing import Generator, Optional
 
-import fitz
+try:
+    import fitz
+except ImportError:
+    import fitz_old as fitz
 
 from mcomix.constants import PDF_RENDER_DPI_DEF
 from mcomix.preferences import prefs

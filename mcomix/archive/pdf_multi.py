@@ -45,7 +45,10 @@ class DisabledFitzArchive(DisabledArchive):
 try:
     if os.environ.get("MCOMIX_DISABLE_PDF_MULTI") is not None:
         raise DisabledError("MCOMIX_DISABLE_PDF_MULTI set in environment")
-    import fitz
+    try:
+        import fitz
+    except ImportError:
+        import fitz_old as fitz
 
     fitz_version = LegacyVersion(fitz.VersionFitz)
     required_version = LegacyVersion(FITZ_VERSION_REQUIRED)
