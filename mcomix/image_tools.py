@@ -691,7 +691,10 @@ def get_supported_formats():
         supported_formats_gdk = {}
         for format in GdkPixbuf.Pixbuf.get_formats():
             name = format.get_name().upper()
-            assert name not in supported_formats_gdk
+            if name in supported_formats_gdk:
+                # The list of supported formats can sometimes contain duplicated entries
+                continue
+
             supported_formats_gdk[name] = (
                 format.get_mime_types(),
                 format.get_extensions(),
