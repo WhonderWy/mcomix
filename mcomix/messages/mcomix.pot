@@ -1077,6 +1077,14 @@ msgstr ""
 msgid "Save As opens at the last directory saved into"
 msgstr ""
 
+#: mcomix/preferences_dialog.py:223
+msgid "Navigation"
+msgstr ""
+
+#: mcomix/preferences_dialog.py:223
+msgid "Left+Click navigates to next page"
+msgstr ""
+
 #: mcomix/preferences_dialog.py:237
 msgid "Use fullscreen by default"
 msgstr ""
