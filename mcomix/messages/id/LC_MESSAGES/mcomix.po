@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Comix-4.0.1\n"
-"Report-Msgid-Bugs-To: https://sourceforge.net/projects/mcomix\n"
-"POT-Creation-Date: 2024-01-21 19:52+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 13:26+1000\n"
 "PO-Revision-Date: 2008-12-13 21:23+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesia <id@li.org>\n"
@@ -18,396 +18,6 @@ msgstr ""
 "X-Poedit-Country: INDONESIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: mcomix/about_dialog.py:29
-#, python-format
-msgid "%s is an image viewer specifically designed to handle comic books."
-msgstr ""
-
-#
-# File: src/about.py, line: 57
-#: mcomix/about_dialog.py:31
-msgid "It reads ZIP, RAR and tar archives, as well as plain image files."
-msgstr ""
-"Comix membaca arsip ZIP, RAR dan tar, begitu pula dengan berkas citra biasa."
-
-#: mcomix/about_dialog.py:35
-#, python-format
-msgid "%s is licensed under the terms of the GNU General Public License."
-msgstr ""
-
-#: mcomix/about_dialog.py:37
-#, python-format
-msgid "A copy of this license can be obtained from %s"
-msgstr ""
-
-#: mcomix/archive_extractor.py:47
-#, python-format
-msgid "Non-supported archive format: %s"
-msgstr ""
-
-#: mcomix/archive_extractor.py:191 mcomix/archive_extractor.py:209
-#, python-format
-msgid "! Extraction error: %s"
-msgstr ""
-
-#: mcomix/archive_packer.py:59
-#, python-format
-msgid "! Could not create archive at path \"%s\""
-msgstr ""
-
-#: mcomix/archive_packer.py:73 mcomix/archive_packer.py:98
-#, python-format
-msgid ""
-"! Could not add file %(sourcefile)s to archive %(archivefile)s, aborting..."
-msgstr ""
-
-#: mcomix/archive_tools.py:186
-#, python-format
-msgid "! Could not read %s"
-msgstr ""
-
-#: mcomix/bookmark_backend.py:149
-#, python-format
-msgid "! Could not parse bookmarks file %s"
-msgstr ""
-
-#: mcomix/bookmark_backend.py:210
-#, python-format
-msgid "Replace existing bookmark on page %s?"
-msgid_plural "Replace existing bookmarks on pages %s?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: mcomix/bookmark_backend.py:215
-#, python-format
-msgid ""
-"The current book already contains marked pages. Do you want to replace them "
-"with a new bookmark on page %d?"
-msgstr ""
-
-#: mcomix/bookmark_backend.py:218
-msgid ""
-"Selecting \"No\" will create a new bookmark without affecting the other "
-"bookmarks."
-msgstr ""
-
-#: mcomix/bookmark_dialog.py:17
-msgid "Edit Bookmarks"
-msgstr ""
-
-#: mcomix/bookmark_dialog.py:51
-msgid "Type"
-msgstr ""
-
-#
-# File: src/bookmark.py, line: 255
-# File: src/edit.py, line: 267
-#: mcomix/bookmark_dialog.py:52 mcomix/edit_comment_area.py:33
-#: mcomix/keybindings_editor.py:36
-msgid "Name"
-msgstr "Nama"
-
-#
-# File: src/bookmark.py, line: 256
-#: mcomix/bookmark_dialog.py:53 mcomix/main.py:1099
-#: mcomix/library/control_area.py:141
-msgid "Page"
-msgstr "Halaman"
-
-#
-# File: src/properties.py, line: 124
-# File: src/properties.py, line: 159
-#: mcomix/bookmark_dialog.py:54 mcomix/properties_dialog.py:114
-msgid "Location"
-msgstr "Lokasi"
-
-#. TRANSLATORS: "Added" as in "Date Added"
-#: mcomix/bookmark_dialog.py:56
-msgid "Added"
-msgstr ""
-
-#: mcomix/bookmark_menu.py:25
-msgid "Add _Bookmark"
-msgstr ""
-
-#: mcomix/bookmark_menu.py:27
-msgid "_Edit Bookmarks..."
-msgstr ""
-
-#: mcomix/callback.py:87
-#, python-format
-msgid "! Callback %(function)r failed: %(error)s"
-msgstr ""
-
-#
-# File: src/comment.py, line: 16
-# File: src/preferences.py, line: 288
-#: mcomix/comment_dialog.py:12 mcomix/preferences_dialog.py:336
-msgid "Comments"
-msgstr "Komentar"
-
-#
-# File: src/comment.py, line: 53
-#: mcomix/comment_dialog.py:93
-#, python-format
-msgid "Could not read %s"
-msgstr "Tak dapat membaca %s"
-
-#
-# File: src/edit.py, line: 255
-#: mcomix/edit_comment_area.py:20
-#, fuzzy
-msgid ""
-"Please note that the only files that are automatically added to this list "
-"are those files in archives that MComix recognizes as comments."
-msgstr ""
-"Perlu dicatat bahwa satu-satunya berkas yang secara otomatis ditambah ke "
-"senarai ini adalah berkas di dalam arsip yang Comix kenali sebagai komentar."
-
-#
-# File: src/edit.py, line: 270
-#: mcomix/edit_comment_area.py:37 mcomix/properties_dialog.py:126
-msgid "Size"
-msgstr "Ukuran"
-
-#
-# File: src/edit.py, line: 168
-# File: src/edit.py, line: 285
-#: mcomix/edit_comment_area.py:54 mcomix/edit_image_area.py:69
-msgid "Remove from archive"
-msgstr "Hapus dari arsip"
-
-#
-# File: src/edit.py, line: 28
-#: mcomix/edit_dialog.py:28 mcomix/keybindings.py:137
-msgid "Edit archive"
-msgstr "Sunting arsip"
-
-#: mcomix/edit_dialog.py:40
-msgid "_Import"
-msgstr ""
-
-#
-# File: src/edit.py, line: 50
-#: mcomix/edit_dialog.py:55
-msgid "Images"
-msgstr "Citra"
-
-#
-# File: src/comment.py, line: 16
-# File: src/preferences.py, line: 288
-#: mcomix/edit_dialog.py:56
-#, fuzzy
-msgid "Comment files"
-msgstr "Komentar"
-
-#
-# File: src/edit.py, line: 99
-#: mcomix/edit_dialog.py:134
-msgid "The new archive could not be saved!"
-msgstr "Berkas baru tak dapat disimpan!"
-
-#
-# File: src/edit.py, line: 101
-#: mcomix/edit_dialog.py:135
-msgid "The original files have not been removed."
-msgstr "Berkas asli belum dihapus."
-
-#
-# File: src/edit.py, line: 115
-#: mcomix/edit_dialog.py:153
-msgid "Archives are stored as ZIP files."
-msgstr "Arsip disimpan sebagai berkas ZIP."
-
-#
-# File: src/enhance.py, line: 51
-#: mcomix/enhance_dialog.py:19 mcomix/keybindings.py:139
-msgid "Enhance image"
-msgstr "Tingkatkan citra"
-
-#: mcomix/enhance_dialog.py:24
-msgid "Reset to defaults."
-msgstr ""
-
-#: mcomix/enhance_dialog.py:27
-msgid "Save the selected values as default for future files."
-msgstr ""
-
-#
-# File: src/enhance.py, line: 79
-#: mcomix/enhance_dialog.py:71
-#, fuzzy
-msgid "_Brightness:"
-msgstr "Kecerahan"
-
-#
-# File: src/enhance.py, line: 90
-#: mcomix/enhance_dialog.py:72
-#, fuzzy
-msgid "_Contrast:"
-msgstr "Kontras"
-
-#
-# File: src/enhance.py, line: 101
-#: mcomix/enhance_dialog.py:73
-#, fuzzy
-msgid "S_aturation:"
-msgstr "Saturasi"
-
-#
-# File: src/enhance.py, line: 112
-#: mcomix/enhance_dialog.py:74
-#, fuzzy
-msgid "S_harpness:"
-msgstr "Ketajaman"
-
-#
-# File: src/enhance.py, line: 126
-#: mcomix/enhance_dialog.py:79
-#, fuzzy
-msgid "_Automatically adjust contrast"
-msgstr "Otomatis menyesuaikan kontras."
-
-#
-# File: src/enhance.py, line: 128
-#: mcomix/enhance_dialog.py:81
-msgid ""
-"Automatically adjust contrast (both lightness and darkness), separately for "
-"each colour band."
-msgstr ""
-"Otomatis menyesuaikan kontras (baik kecerahan dan kegelapan), terpisah untuk "
-"tiap pita warna."
-
-#: mcomix/enhance_dialog.py:86 mcomix/ui.py:142
-msgid "_Invert image colors"
-msgstr ""
-
-#: mcomix/enhance_dialog.py:88
-msgid "Invert (negate) image colors."
-msgstr ""
-
-#
-# File: src/filechooser.py, line: 35
-# File: src/library.py, line: 489
-#: mcomix/file_chooser_base_dialog.py:44 mcomix/keybindings.py:138
-msgid "Open"
-msgstr "Buka"
-
-#
-# File: src/filechooser.py, line: 39
-#: mcomix/file_chooser_base_dialog.py:49
-msgid "Save"
-msgstr "Simpan"
-
-#
-# File: src/filechooser.py, line: 75
-#: mcomix/file_chooser_base_dialog.py:86
-msgid "All files"
-msgstr "Semua berkas"
-
-#
-# File: src/filechooser.py, line: 78
-#: mcomix/file_chooser_base_dialog.py:129
-#, fuzzy
-msgid "All archives"
-msgstr "Semua arsip"
-
-#
-# File: src/filechooser.py, line: 82
-#: mcomix/file_chooser_base_dialog.py:135
-#, fuzzy, python-format
-msgid "%s archives"
-msgstr "Arsip %s"
-
-#
-# File: src/filechooser.py, line: 171
-# File: src/filechooser.py, line: 249
-#: mcomix/file_chooser_base_dialog.py:145
-msgid "All images"
-msgstr "Semua gambar"
-
-#
-# File: src/filechooser.py, line: 171
-# File: src/filechooser.py, line: 249
-#: mcomix/file_chooser_base_dialog.py:151
-#, fuzzy, python-format
-msgid "%s images"
-msgstr "Citra %s"
-
-#
-# File: src/filechooser.py, line: 125
-#: mcomix/file_chooser_base_dialog.py:228
-#, python-format
-msgid "A file named '%s' already exists. Do you want to replace it?"
-msgstr "Berkas bernama '%s' telah ada. Anda ingin menggantinya?"
-
-#
-# File: src/filechooser.py, line: 128
-#: mcomix/file_chooser_base_dialog.py:230
-msgid "Replacing it will overwrite its contents."
-msgstr "Mengganti berkas akan menimpa isinya."
-
-#
-# File: src/library.py, line: 789
-#: mcomix/file_chooser_library_dialog.py:18
-msgid "Add books"
-msgstr "Tambah buku"
-
-#
-# File: src/filehandler.py, line: 285
-#: mcomix/file_handler.py:146
-#, python-format
-msgid "No images in '%s'"
-msgstr "Tak ada citra di '%s'"
-
-#
-# File: src/filehandler.py, line: 213
-#: mcomix/file_handler.py:264
-#, python-format
-msgid "Could not open %s: No such file."
-msgstr "Tak dapat membuka %s: Tak ada berkas."
-
-#
-# File: src/filehandler.py, line: 217
-#: mcomix/file_handler.py:267 mcomix/file_provider.py:135
-#, python-format
-msgid "Could not open %s: Permission denied."
-msgstr "Tak dapat membuka %s: Hak akses ditolak."
-
-#: mcomix/file_handler.py:364
-#, python-format
-msgid "Continue reading from page %d?"
-msgstr ""
-
-#: mcomix/file_handler.py:365
-#, python-format
-msgid ""
-"You stopped reading here on %(date)s, %(time)s. If you choose \"Yes\", "
-"reading will resume on page %(page)d. Otherwise, the first page will be "
-"loaded."
-msgstr ""
-
-#: mcomix/file_handler.py:664
-#, python-format
-msgid "! Corrupt preferences file \"%s\", deleting..."
-msgstr ""
-
-#: mcomix/file_provider.py:105
-#, python-format
-msgid "Invalid path: '%s'"
-msgstr ""
-
-#: mcomix/icons.py:61
-#, python-format
-msgid "! Could not load icon \"%s\""
-msgstr ""
-
-#
-# File: src/filehandler.py, line: 411
-#: mcomix/image_tools.py:650
-msgid "Unknown filetype"
-msgstr "Tipe berkas tak diketahui"
-
 #
 # File: src/ui.py, line: 284
 #: mcomix/keybindings.py:41 mcomix/ui.py:45
@@ -419,6 +29,7 @@ msgstr "Halaman sebelumnya"
 #: mcomix/keybindings.py:47 mcomix/keybindings.py:48 mcomix/keybindings.py:50
 #: mcomix/keybindings.py:51 mcomix/keybindings.py:52 mcomix/keybindings.py:54
 #: mcomix/keybindings.py:55 mcomix/keybindings.py:56 mcomix/keybindings.py:57
+#: mcomix/preferences_dialog.py:227
 msgid "Navigation"
 msgstr ""
 
@@ -758,7 +369,7 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 271
-#: mcomix/keybindings.py:116 mcomix/preferences_dialog.py:234
+#: mcomix/keybindings.py:116 mcomix/preferences_dialog.py:240
 msgid "Fullscreen"
 msgstr "Layar Penuh"
 
@@ -873,6 +484,25 @@ msgid "Preferences"
 msgstr "Pengaturan"
 
 #
+# File: src/edit.py, line: 28
+#: mcomix/keybindings.py:137 mcomix/edit_dialog.py:28
+msgid "Edit archive"
+msgstr "Sunting arsip"
+
+#
+# File: src/filechooser.py, line: 35
+# File: src/library.py, line: 489
+#: mcomix/keybindings.py:138 mcomix/file_chooser_base_dialog.py:44
+msgid "Open"
+msgstr "Buka"
+
+#
+# File: src/enhance.py, line: 51
+#: mcomix/keybindings.py:139 mcomix/enhance_dialog.py:19
+msgid "Enhance image"
+msgstr "Tingkatkan citra"
+
+#
 # File: src/library.py, line: 38
 #: mcomix/keybindings.py:140 mcomix/library/main_dialog.py:36
 msgid "Library"
@@ -903,193 +533,400 @@ msgstr ""
 msgid "Couldn't load keybindings: %s"
 msgstr ""
 
-#: mcomix/keybindings_editor.py:43
-#, python-format
-msgid "Key %d"
+#: mcomix/enhance_dialog.py:24
+msgid "Reset to defaults."
 msgstr ""
 
-#: mcomix/last_read_page.py:203 mcomix/thumbnail_tools.py:115
-#: mcomix/library/book_area.py:590
-#, python-format
-msgid "! Could not remove file \"%s\""
+#: mcomix/enhance_dialog.py:27
+msgid "Save the selected values as default for future files."
 msgstr ""
 
 #
-# File: src/main.py, line: 666
-#: mcomix/main.py:965
-msgid "SLIDESHOW"
-msgstr "SALINDIA"
+# File: src/enhance.py, line: 79
+#: mcomix/enhance_dialog.py:71
+#, fuzzy
+msgid "_Brightness:"
+msgstr "Kecerahan"
 
-#: mcomix/main.py:1009
-msgid "Save page as"
+#
+# File: src/enhance.py, line: 90
+#: mcomix/enhance_dialog.py:72
+#, fuzzy
+msgid "_Contrast:"
+msgstr "Kontras"
+
+#
+# File: src/enhance.py, line: 101
+#: mcomix/enhance_dialog.py:73
+#, fuzzy
+msgid "S_aturation:"
+msgstr "Saturasi"
+
+#
+# File: src/enhance.py, line: 112
+#: mcomix/enhance_dialog.py:74
+#, fuzzy
+msgid "S_harpness:"
+msgstr "Ketajaman"
+
+#
+# File: src/enhance.py, line: 126
+#: mcomix/enhance_dialog.py:79
+#, fuzzy
+msgid "_Automatically adjust contrast"
+msgstr "Otomatis menyesuaikan kontras."
+
+#
+# File: src/enhance.py, line: 128
+#: mcomix/enhance_dialog.py:81
+msgid ""
+"Automatically adjust contrast (both lightness and darkness), separately for "
+"each colour band."
+msgstr ""
+"Otomatis menyesuaikan kontras (baik kecerahan dan kegelapan), terpisah untuk "
+"tiap pita warna."
+
+#: mcomix/enhance_dialog.py:86 mcomix/ui.py:142
+msgid "_Invert image colors"
 msgstr ""
 
-#: mcomix/main.py:1044
-#, python-format
-msgid "Delete \"%s\"?"
+#: mcomix/enhance_dialog.py:88
+msgid "Invert (negate) image colors."
 msgstr ""
 
-#: mcomix/main.py:1045
-msgid "The file will be deleted from your harddisk."
+#
+# File: src/archive.py, line: 301
+#: mcomix/strings.py:10 mcomix/strings.py:19
+msgid "ZIP archive"
+msgstr "Arsip ZIP"
+
+#
+# File: src/archive.py, line: 305
+#: mcomix/strings.py:11
+msgid "RAR archive"
+msgstr "Arsip RAR"
+
+#
+# File: src/archive.py, line: 302
+#: mcomix/strings.py:12
+msgid "Tar archive"
+msgstr "Arsip Tar"
+
+#
+# File: src/archive.py, line: 303
+#: mcomix/strings.py:13
+msgid "Gzip compressed tar archive"
+msgstr "Arsip tar terkompres Gzip"
+
+#
+# File: src/archive.py, line: 304
+#: mcomix/strings.py:14
+msgid "Bzip2 compressed tar archive"
+msgstr "Arsip tar terkompres Bzip2"
+
+#
+# File: src/archive.py, line: 303
+#: mcomix/strings.py:15
+#, fuzzy
+msgid "XZ compressed tar archive"
+msgstr "Arsip tar terkompres Gzip"
+
+#: mcomix/strings.py:16
+msgid "PDF document"
+msgstr ""
+
+#: mcomix/strings.py:17
+msgid "7z archive"
+msgstr ""
+
+#: mcomix/strings.py:18
+msgid "LHA archive"
+msgstr ""
+
+#: mcomix/strings.py:20
+msgid "MobiPocket ebook"
+msgstr ""
+
+#: mcomix/strings.py:24
+msgid "Original vision/developer of Comix"
+msgstr ""
+
+#: mcomix/strings.py:25 mcomix/strings.py:26 mcomix/strings.py:27
+#: mcomix/strings.py:28
+msgid "MComix developer"
+msgstr ""
+
+#
+# File: src/about.py, line: 77
+#: mcomix/strings.py:31 mcomix/strings.py:32 mcomix/strings.py:33
+#: mcomix/strings.py:34
+msgid "Simplified Chinese translation"
+msgstr "Terjemahan bahasa China yang disederhanakan"
+
+#
+# File: src/about.py, line: 78
+#: mcomix/strings.py:35 mcomix/strings.py:36
+msgid "Spanish translation"
+msgstr "Terjemahan bahasa Spanyol"
+
+#
+# File: src/about.py, line: 79
+#: mcomix/strings.py:37
+msgid "Brazilian Portuguese translation"
+msgstr "Terjemahan bahasa Portugis Brasil"
+
+#
+# File: src/about.py, line: 81
+#: mcomix/strings.py:38
+msgid "German translation and Nautilus thumbnailer"
+msgstr "Terjemahan bahasa Jerman dan pembuat miniatur gambar Nautilus"
+
+#
+# File: src/about.py, line: 94
+#: mcomix/strings.py:39
+#, fuzzy
+msgid "German translation"
+msgstr "Terjemahan bahasa Persia"
+
+#
+# File: src/about.py, line: 82
+#: mcomix/strings.py:40 mcomix/strings.py:41 mcomix/strings.py:42
+msgid "Italian translation"
+msgstr "Terjemahan bahasa Italia"
+
+#
+# File: src/about.py, line: 83
+#: mcomix/strings.py:43
+msgid "Dutch translation"
+msgstr "Terjemahan bahasa Belanda"
+
+#
+# File: src/about.py, line: 84
+#: mcomix/strings.py:44 mcomix/strings.py:45 mcomix/strings.py:46
+#: mcomix/strings.py:47
+msgid "French translation"
+msgstr "Terjemahan bahasa Prancis"
+
+#
+# File: src/about.py, line: 85
+#: mcomix/strings.py:48
+#, fuzzy
+msgid "Polish translatin"
+msgstr "Terjemahan bahasa Polandia"
+
+#
+# File: src/about.py, line: 85
+#: mcomix/strings.py:49
+msgid "Polish translation"
+msgstr "Terjemahan bahasa Polandia"
+
+#
+# File: src/about.py, line: 86
+#: mcomix/strings.py:50
+msgid "Greek translation"
+msgstr "Terjemahan bahasa Yunani"
+
+#
+# File: src/about.py, line: 87
+#: mcomix/strings.py:51
+msgid "Catalan translation"
+msgstr "Terjemahan bahasa Catalan"
+
+#
+# File: src/about.py, line: 88
+#: mcomix/strings.py:52 mcomix/strings.py:53
+msgid "Traditional Chinese translation"
+msgstr "Terjemahan bahasa China tradisional"
+
+#
+# File: src/about.py, line: 89
+#: mcomix/strings.py:54 mcomix/strings.py:55 mcomix/strings.py:56
+msgid "Japanese translation"
+msgstr "Terjemahan bahasa Jepang"
+
+#
+# File: src/about.py, line: 90
+#: mcomix/strings.py:57
+msgid "Hungarian translation"
+msgstr "Terjemahan bahasa Hungaria"
+
+#
+# File: src/about.py, line: 91
+#: mcomix/strings.py:58 mcomix/strings.py:59
+msgid "Russian translation"
+msgstr "Terjemahan bahasa Rusia"
+
+#
+# File: src/about.py, line: 92
+#: mcomix/strings.py:60
+msgid "Croatian translation"
+msgstr "Terjemahan bahasa Kroasia"
+
+#
+# File: src/about.py, line: 93
+#: mcomix/strings.py:61 mcomix/strings.py:62 mcomix/strings.py:63
+msgid "Korean translation"
+msgstr "Terjemahan bahasa Korea"
+
+#
+# File: src/about.py, line: 94
+#: mcomix/strings.py:64
+msgid "Persian translation"
+msgstr "Terjemahan bahasa Persia"
+
+#
+# File: src/about.py, line: 95
+#: mcomix/strings.py:65
+msgid "Indonesian translation"
+msgstr "Terjemahan bahasa Indonesia"
+
+#
+# File: src/about.py, line: 96
+#: mcomix/strings.py:66
+msgid "Czech translation"
+msgstr "Terjemahan bahasa Ceko"
+
+#: mcomix/strings.py:67
+msgid "Ukrainian translation"
+msgstr ""
+
+#
+# File: src/about.py, line: 82
+#: mcomix/strings.py:68
+#, fuzzy
+msgid "Galician translation"
+msgstr "Terjemahan bahasa Italia"
+
+#: mcomix/strings.py:69 mcomix/strings.py:70
+msgid "Swedish translation"
+msgstr ""
+
+#
+# File: src/about.py, line: 86
+#: mcomix/strings.py:71
+#, fuzzy
+msgid "Hebrew translation"
+msgstr "Terjemahan bahasa Yunani"
+
+#
+# File: src/about.py, line: 82
+#: mcomix/strings.py:72
+#, fuzzy
+msgid "Lithuanian translation"
+msgstr "Terjemahan bahasa Italia"
+
+#
+# File: src/about.py, line: 97
+#: mcomix/strings.py:75
+msgid "Icon design"
+msgstr "Desain ikon"
+
+#: mcomix/strings.py:76
+msgid "Vector icon"
 msgstr ""
 
 #: mcomix/message_dialog.py:33
 msgid "Do not ask again."
 msgstr ""
 
-#: mcomix/openwith.py:71
+#
+# File: src/properties.py, line: 135
+#: mcomix/properties_dialog.py:37
+msgid "Archive"
+msgstr "Arsip"
+
+#
+# File: src/properties.py, line: 169
+#: mcomix/properties_dialog.py:39
+msgid "Image"
+msgstr "Gambar"
+
+#
+# File: src/library.py, line: 832
+# File: src/properties.py, line: 113
+#: mcomix/properties_dialog.py:78 mcomix/library/control_area.py:143
 #, python-format
-msgid "'%s' is disabled for archives."
-msgstr ""
+msgid "%d pages"
+msgstr "%d halaman"
 
-#: mcomix/openwith.py:90
+#
+# File: src/properties.py, line: 114
+#: mcomix/properties_dialog.py:79
 #, python-format
-msgid "Could not run command %(cmdlabel)s: %(exception)s"
-msgstr ""
-
-#: mcomix/openwith.py:138
-msgid "Command line is empty."
-msgstr ""
-
-#: mcomix/openwith.py:181
-msgid "Incomplete escape sequence. For a literal '%', use '%%'."
-msgstr ""
-
-#: mcomix/openwith.py:185
-msgid "Incomplete quote sequence. For a literal '\"', use '%\"'."
-msgstr ""
+msgid "%d comments"
+msgstr "%d komentar"
 
 #
-# File: src/edit.py, line: 115
-#: mcomix/openwith.py:201
-#, fuzzy
-msgid "File-related variables can only be used for files."
-msgstr "Arsip disimpan sebagai berkas ZIP."
+# File: src/properties.py, line: 124
+# File: src/properties.py, line: 159
+#: mcomix/properties_dialog.py:114 mcomix/bookmark_dialog.py:54
+msgid "Location"
+msgstr "Lokasi"
 
 #
-# File: src/edit.py, line: 115
-#: mcomix/openwith.py:205
-#, fuzzy
-msgid "Archive-related variables can only be used for archives."
-msgstr "Arsip disimpan sebagai berkas ZIP."
+# File: src/edit.py, line: 270
+#: mcomix/properties_dialog.py:126 mcomix/edit_comment_area.py:38
+msgid "Size"
+msgstr "Ukuran"
 
-#: mcomix/openwith.py:247
+#
+# File: src/properties.py, line: 126
+# File: src/properties.py, line: 160
+#: mcomix/properties_dialog.py:127
+msgid "Accessed"
+msgstr "Diakses"
+
+#
+# File: src/properties.py, line: 128
+# File: src/properties.py, line: 162
+#: mcomix/properties_dialog.py:129
+msgid "Modified"
+msgstr "Dimodifikasi"
+
+#
+# File: src/properties.py, line: 130
+# File: src/properties.py, line: 164
+#: mcomix/properties_dialog.py:131
+msgid "Permissions"
+msgstr "Hak Akses"
+
+#
+# File: src/properties.py, line: 131
+# File: src/properties.py, line: 165
+#: mcomix/properties_dialog.py:132
+msgid "Owner"
+msgstr "Pemilik"
+
+#: mcomix/worker_thread.py:74
 #, python-format
-msgid "Invalid escape sequence: %%%s"
-msgstr ""
-
-#: mcomix/openwith.py:270
-msgid "Edit external commands"
-msgstr ""
-
-#: mcomix/openwith.py:280
-msgid "Add _separator"
+msgid "! Worker thread processing %(function)r failed: %(error)s"
 msgstr ""
 
 #
-# File: src/comment.py, line: 16
-# File: src/preferences.py, line: 288
-#: mcomix/openwith.py:291
-#, fuzzy
-msgid "Run _command"
-msgstr "Komentar"
+# File: src/main.py, line: 666
+#: mcomix/main.py:967
+msgid "SLIDESHOW"
+msgstr "SALINDIA"
 
-#: mcomix/openwith.py:354
-msgid "This is a separator pseudo-command."
+#: mcomix/main.py:1011
+msgid "Save page as"
 msgstr ""
 
-#: mcomix/openwith.py:365
+#: mcomix/main.py:1046
 #, python-format
-msgid "\"%s\" does not have a valid working directory."
+msgid "Delete \"%s\"?"
 msgstr ""
 
-#: mcomix/openwith.py:368
-#, python-format
-msgid "\"%s\" does not appear to have a valid executable."
-msgstr ""
-
-#
-# File: src/comment.py, line: 16
-# File: src/preferences.py, line: 288
-#: mcomix/openwith.py:377
-#, fuzzy
-msgid "Command label"
-msgstr "Komentar"
-
-#
-# File: src/ui.py, line: 36
-#: mcomix/openwith.py:470
-#, fuzzy
-msgid "Preview:"
-msgstr "Halaman _sebelumnya"
-
-#: mcomix/openwith.py:478
-#, python-format
-msgid ""
-"Please refer to the <a href=\"%s\">external command documentation</a> for a "
-"list of usable variables and other hints."
-msgstr ""
-
-#: mcomix/openwith.py:486
-msgid "Label"
+#: mcomix/main.py:1047
+msgid "The file will be deleted from your harddisk."
 msgstr ""
 
 #
-# File: src/comment.py, line: 16
-# File: src/preferences.py, line: 288
-#: mcomix/openwith.py:486
-#, fuzzy
-msgid "Command"
-msgstr "Komentar"
-
-#
-# File: src/thumbremover.py, line: 58
-#: mcomix/openwith.py:486
-#, fuzzy
-msgid "Working directory"
-msgstr "Direktori miniatur"
-
-#
-# File: src/filechooser.py, line: 86
-#: mcomix/openwith.py:500
-#, fuzzy
-msgid "Disabled in archives"
-msgstr "Arsip Tar"
-
-#: mcomix/openwith.py:555
-msgid "Save changes to commands?"
-msgstr ""
-
-#: mcomix/openwith.py:556
-msgid ""
-"You have made changes to the list of external commands that have not been "
-"saved yet. Press \"Yes\" to save all changes, or \"No\" to discard them."
-msgstr ""
-
-#
-# File: src/bookmark.py, line: 229
-#: mcomix/openwith_menu.py:23
-#, fuzzy
-msgid "_Edit commands"
-msgstr "Sunting bookmark"
-
-#
-# File: src/ui.py, line: 69
-#: mcomix/pageselect.py:20 mcomix/ui.py:101 mcomix/ui.py:102
-msgid "_Go"
-msgstr "_Ke"
-
-#
-# File: src/preferences.py, line: 230
-#: mcomix/pageselect.py:21
-#, fuzzy
-msgid "_Cancel"
-msgstr "Tembolok"
-
-#: mcomix/pageselect.py:40
-#, python-format
-msgid " of %s"
-msgstr ""
+# File: src/bookmark.py, line: 256
+#: mcomix/main.py:1101 mcomix/bookmark_dialog.py:53
+#: mcomix/library/control_area.py:141
+msgid "Page"
+msgstr "Halaman"
 
 #
 # File: src/preferences.py, line: 161
@@ -1438,16 +1275,20 @@ msgstr "Simpan informasi tentang berkas yang baru-baru ini terbuka."
 msgid "Save As opens at the last directory saved into"
 msgstr ""
 
+#: mcomix/preferences_dialog.py:229
+msgid "Left+Click navigates to next page"
+msgstr ""
+
 #
 # File: src/preferences.py, line: 250
-#: mcomix/preferences_dialog.py:237
+#: mcomix/preferences_dialog.py:243
 #, fuzzy
 msgid "Use fullscreen by default"
 msgstr "Gunakan layar penuh sebagai standar."
 
 #
 # File: src/preferences.py, line: 273
-#: mcomix/preferences_dialog.py:241
+#: mcomix/preferences_dialog.py:247
 #, fuzzy
 msgid "Automatically hide all toolbars in fullscreen"
 msgstr "Otomatis menyembunyikan semua batang alat di layar penuh."
@@ -1455,14 +1296,14 @@ msgstr "Otomatis menyembunyikan semua batang alat di layar penuh."
 #
 # File: src/preferences.py, line: 263
 # File: src/ui.py, line: 290
-#: mcomix/preferences_dialog.py:244 mcomix/ui.py:155
+#: mcomix/preferences_dialog.py:250 mcomix/ui.py:155
 #, fuzzy
 msgid "Fit to size mode"
 msgstr "Mode sesuai lebar"
 
 #
 # File: src/ui.py, line: 103
-#: mcomix/preferences_dialog.py:246
+#: mcomix/preferences_dialog.py:252
 #, fuzzy
 msgid "Fixed width for wide pages:"
 msgstr "Mode sesuai _lebar"
@@ -1470,46 +1311,46 @@ msgstr "Mode sesuai _lebar"
 #
 # File: src/preferences.py, line: 264
 # File: src/ui.py, line: 292
-#: mcomix/preferences_dialog.py:250
+#: mcomix/preferences_dialog.py:256
 #, fuzzy
 msgid "Fixed height for wide pages:"
 msgstr "Mode sesuai tinggi"
 
 #
 # File: src/ui.py, line: 103
-#: mcomix/preferences_dialog.py:254
+#: mcomix/preferences_dialog.py:260
 #, fuzzy
 msgid "Fixed width for other pages:"
 msgstr "Mode sesuai _lebar"
 
 #
 # File: src/ui.py, line: 103
-#: mcomix/preferences_dialog.py:258
+#: mcomix/preferences_dialog.py:264
 #, fuzzy
 msgid "Fixed height for other pages:"
 msgstr "Mode sesuai _lebar"
 
 #
 # File: src/preferences.py, line: 279
-#: mcomix/preferences_dialog.py:262
+#: mcomix/preferences_dialog.py:268
 msgid "Slideshow"
 msgstr "Presentasi"
 
 #
 # File: src/preferences.py, line: 280
-#: mcomix/preferences_dialog.py:264
+#: mcomix/preferences_dialog.py:270
 #, fuzzy
 msgid "Slideshow delay (in seconds):"
 msgstr "Jeda salindia (dalam detik)"
 
 #
 # File: src/preferences.py, line: 280
-#: mcomix/preferences_dialog.py:268
+#: mcomix/preferences_dialog.py:274
 #, fuzzy
 msgid "Slideshow step (in pixels):"
 msgstr "Jeda salindia (dalam detik)"
 
-#: mcomix/preferences_dialog.py:271
+#: mcomix/preferences_dialog.py:277
 msgid ""
 "Specify the number of pixels to scroll while in slideshow mode. A positive "
 "value will scroll forward, a negative value will scroll backwards, and a "
@@ -1518,25 +1359,25 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 198
-#: mcomix/preferences_dialog.py:274
+#: mcomix/preferences_dialog.py:280
 #, fuzzy
 msgid "During a slideshow automatically open the next archive"
 msgstr "Otomatis membuka arsip berikutnya."
 
-#: mcomix/preferences_dialog.py:276
+#: mcomix/preferences_dialog.py:282
 msgid ""
 "While in slideshow mode allow the next archive to automatically be opened."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:278
+#: mcomix/preferences_dialog.py:284
 msgid "Rotation"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:281
+#: mcomix/preferences_dialog.py:287
 msgid "Automatically rotate images according to their metadata"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:283
+#: mcomix/preferences_dialog.py:289
 msgid ""
 "Automatically rotate images when an orientation is specified in the image "
 "metadata, such as in an Exif tag."
@@ -1544,70 +1385,70 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 143
-#: mcomix/preferences_dialog.py:285
+#: mcomix/preferences_dialog.py:291
 #, fuzzy
 msgid "Image quality"
 msgstr "Skala citra"
 
 #
 # File: src/ui.py, line: 297
-#: mcomix/preferences_dialog.py:287
+#: mcomix/preferences_dialog.py:293
 #, fuzzy
 msgid "Scaling mode"
 msgstr "Mode manga"
 
-#: mcomix/preferences_dialog.py:299
+#: mcomix/preferences_dialog.py:305
 msgid "File order"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:301
+#: mcomix/preferences_dialog.py:307
 msgid "Sort files and directories by:"
 msgstr ""
 
 #
 # File: src/filechooser.py, line: 86
-#: mcomix/preferences_dialog.py:304
+#: mcomix/preferences_dialog.py:310
 #, fuzzy
 msgid "Sort archives by:"
 msgstr "Arsip Tar"
 
-#: mcomix/preferences_dialog.py:307
+#: mcomix/preferences_dialog.py:313
 msgid "Extraction and cache"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:309
+#: mcomix/preferences_dialog.py:315
 msgid "Maximum number of concurrent extraction threads:"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:312
+#: mcomix/preferences_dialog.py:318
 msgid ""
 "Set the maximum number of concurrent threads for formats that support it."
 msgstr ""
 
 #
 # File: src/preferences.py, line: 222
-#: mcomix/preferences_dialog.py:315
+#: mcomix/preferences_dialog.py:321
 #, fuzzy
 msgid "Store thumbnails for opened files"
 msgstr "Simpan miniatur untuk berkas yang dibuka."
 
 #
 # File: src/preferences.py, line: 227
-#: mcomix/preferences_dialog.py:317
+#: mcomix/preferences_dialog.py:323
 msgid ""
 "Store thumbnails for opened files according to the freedesktop.org "
 "specification. These thumbnails are shared by many other applications, such "
 "as most file managers."
 msgstr ""
-"Simpan miniatur untuk berkas yang dibuka menurut spesifikasi freedesktop."
-"org. Miniatur ini dikongsikan oleh banyak aplikasi lain, seperti kebanyakan "
-"manajer berkas."
+"Simpan miniatur untuk berkas yang dibuka menurut spesifikasi "
+"freedesktop.org. Miniatur ini dikongsikan oleh banyak aplikasi lain, seperti "
+"kebanyakan manajer berkas."
 
-#: mcomix/preferences_dialog.py:319
+#: mcomix/preferences_dialog.py:325
 msgid "Maximum number of pages to store in the cache:"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:322
+#: mcomix/preferences_dialog.py:328
 msgid ""
 "Set the max number of pages to cache. A value of -1 will cache the entire "
 "archive."
@@ -1615,20 +1456,20 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 124
-#: mcomix/preferences_dialog.py:324
+#: mcomix/preferences_dialog.py:330
 msgid "Magnifying Lens"
 msgstr "Lensa Pembesar"
 
 #
 # File: src/preferences.py, line: 125
-#: mcomix/preferences_dialog.py:326
+#: mcomix/preferences_dialog.py:332
 #, fuzzy
 msgid "Magnifying lens size (in pixels):"
 msgstr "Ukuran lensa pembesar (dalam piksel)"
 
 #
 # File: src/preferences.py, line: 131
-#: mcomix/preferences_dialog.py:329
+#: mcomix/preferences_dialog.py:335
 msgid ""
 "Set the size of the magnifying lens. It is a square with a side of this many "
 "pixels."
@@ -1638,75 +1479,82 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 133
-#: mcomix/preferences_dialog.py:331
+#: mcomix/preferences_dialog.py:337
 #, fuzzy
 msgid "Magnification factor:"
 msgstr "Faktor pembesaran"
 
 #
 # File: src/preferences.py, line: 140
-#: mcomix/preferences_dialog.py:334
+#: mcomix/preferences_dialog.py:340
 msgid "Set the magnification factor of the magnifying lens."
 msgstr "Atur faktor pembesaran dari lensa pembesar."
 
 #
+# File: src/comment.py, line: 16
+# File: src/preferences.py, line: 288
+#: mcomix/preferences_dialog.py:342 mcomix/comment_dialog.py:13
+msgid "Comments"
+msgstr "Komentar"
+
+#
 # File: src/preferences.py, line: 289
-#: mcomix/preferences_dialog.py:338
+#: mcomix/preferences_dialog.py:344
 #, fuzzy
 msgid "Comment extensions:"
 msgstr "Ekstensi komentar"
 
 #
 # File: src/enhance.py, line: 51
-#: mcomix/preferences_dialog.py:341
+#: mcomix/preferences_dialog.py:347
 #, fuzzy
 msgid "Animated images"
 msgstr "Tingkatkan citra"
 
-#: mcomix/preferences_dialog.py:343
+#: mcomix/preferences_dialog.py:349
 msgid "Animation mode:"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:362
+#: mcomix/preferences_dialog.py:368
 msgid "_Reset keys"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:364
+#: mcomix/preferences_dialog.py:370
 msgid "Resets all keyboard shortcuts to their default values."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:367
+#: mcomix/preferences_dialog.py:373
 msgid "Clear _dialog choices"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:369
+#: mcomix/preferences_dialog.py:375
 msgid ""
 "Clears all dialog choices that you have previously chosen not to be asked "
 "again."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:397
+#: mcomix/preferences_dialog.py:403
 msgid "Auto-detect (Default)"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:440 mcomix/preferences_dialog.py:587
-#: mcomix/preferences_dialog.py:661 mcomix/ui.py:162
+#: mcomix/preferences_dialog.py:446 mcomix/preferences_dialog.py:593
+#: mcomix/preferences_dialog.py:667 mcomix/ui.py:162
 msgid "Never"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:441
+#: mcomix/preferences_dialog.py:447
 msgid "Only for title pages"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:442
+#: mcomix/preferences_dialog.py:448
 msgid "Only for wide images"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:443 mcomix/preferences_dialog.py:588
+#: mcomix/preferences_dialog.py:449 mcomix/preferences_dialog.py:594
 msgid "Always"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:450
+#: mcomix/preferences_dialog.py:456
 msgid ""
 "When showing the first page of an archive, or an image's width exceeds its "
 "height, only a single page will be displayed."
@@ -1714,14 +1562,14 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 78
-#: mcomix/preferences_dialog.py:466
+#: mcomix/preferences_dialog.py:472
 #, fuzzy
 msgid "Prefer same scale"
 msgstr "Pengaturan"
 
 #
 # File: src/preferences.py, line: 78
-#: mcomix/preferences_dialog.py:467
+#: mcomix/preferences_dialog.py:473
 #, fuzzy
 msgid "Prefer same size"
 msgstr "Pengaturan"
@@ -1729,56 +1577,56 @@ msgstr "Pengaturan"
 #
 # File: src/preferences.py, line: 263
 # File: src/ui.py, line: 290
-#: mcomix/preferences_dialog.py:468
+#: mcomix/preferences_dialog.py:474
 #, fuzzy
 msgid "Fit to same size"
 msgstr "Mode sesuai lebar"
 
-#: mcomix/preferences_dialog.py:475
+#: mcomix/preferences_dialog.py:481
 msgid "Maintain relative size or fit to same size."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:490 mcomix/preferences_dialog.py:538
+#: mcomix/preferences_dialog.py:496 mcomix/preferences_dialog.py:544
 msgid "No sorting"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:491
+#: mcomix/preferences_dialog.py:497
 msgid "File name"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:492 mcomix/library/book_area.py:177
+#: mcomix/preferences_dialog.py:498 mcomix/library/book_area.py:177
 msgid "File size"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:493
+#: mcomix/preferences_dialog.py:499
 msgid "Last modified"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:499 mcomix/preferences_dialog.py:546
+#: mcomix/preferences_dialog.py:505 mcomix/preferences_dialog.py:552
 #: mcomix/library/book_area.py:181
 msgid "Ascending"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:500 mcomix/preferences_dialog.py:547
+#: mcomix/preferences_dialog.py:506 mcomix/preferences_dialog.py:553
 #: mcomix/library/book_area.py:183
 msgid "Descending"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:510
+#: mcomix/preferences_dialog.py:516
 msgid ""
 "Files will be opened and displayed according to the sort order specified "
 "here. This option does not affect ordering within archives."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:539
+#: mcomix/preferences_dialog.py:545
 msgid "Natural order"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:540
+#: mcomix/preferences_dialog.py:546
 msgid "Literal order"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:557
+#: mcomix/preferences_dialog.py:563
 msgid ""
 "Files within archives will be sorted according to the order specified here. "
 "Natural order will sort numbered files based on their natural order, i.e. 1, "
@@ -1787,7 +1635,7 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 219
-#: mcomix/preferences_dialog.py:600
+#: mcomix/preferences_dialog.py:606
 #, fuzzy
 msgid ""
 "Add information about all files opened from within MComix to the shared "
@@ -1798,46 +1646,46 @@ msgstr ""
 
 #
 # File: src/preferences.py, line: 214
-#: mcomix/preferences_dialog.py:623
+#: mcomix/preferences_dialog.py:629
 #, fuzzy
 msgid "Delete information about recently opened files?"
 msgstr "Simpan informasi tentang berkas yang baru-baru ini terbuka."
 
-#: mcomix/preferences_dialog.py:624
+#: mcomix/preferences_dialog.py:630
 msgid ""
 "This will remove all entries from the \"Recent\" menu, and clear information "
 "about last read pages."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:635
+#: mcomix/preferences_dialog.py:641
 msgid "Normal (fast)"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:636
+#: mcomix/preferences_dialog.py:642
 msgid "Bilinear"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:637
+#: mcomix/preferences_dialog.py:643
 msgid "Hyperbolic (slow)"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:643
+#: mcomix/preferences_dialog.py:649
 msgid ""
 "Changes how images are scaled. Slower algorithms result in higher quality "
 "resizing, but longer page loading times."
 msgstr ""
 
-#: mcomix/preferences_dialog.py:662 mcomix/library/book_area.py:193
+#: mcomix/preferences_dialog.py:668 mcomix/library/book_area.py:193
 msgid "Normal"
 msgstr ""
 
-#: mcomix/preferences_dialog.py:668
+#: mcomix/preferences_dialog.py:674
 msgid "Controls how animated images should be displayed."
 msgstr ""
 
 #
 # File: src/preferences.py, line: 295
-#: mcomix/preferences_dialog.py:729
+#: mcomix/preferences_dialog.py:735
 msgid ""
 "Treat all files found within archives, that have one of these file endings, "
 "as comments."
@@ -1845,60 +1693,60 @@ msgstr ""
 "Perlakukan semua berkas yang ditemukan dalam arsip, yang mempunyai salah "
 "satu akhiran berkas ini, sebagai komentarl."
 
-#
-# File: src/properties.py, line: 135
-#: mcomix/properties_dialog.py:37
-msgid "Archive"
-msgstr "Arsip"
-
-#
-# File: src/properties.py, line: 169
-#: mcomix/properties_dialog.py:39
-msgid "Image"
-msgstr "Gambar"
-
-#
-# File: src/library.py, line: 832
-# File: src/properties.py, line: 113
-#: mcomix/properties_dialog.py:78 mcomix/library/control_area.py:143
+#: mcomix/last_read_page.py:203 mcomix/thumbnail_tools.py:115
+#: mcomix/library/book_area.py:590
 #, python-format
-msgid "%d pages"
-msgstr "%d halaman"
+msgid "! Could not remove file \"%s\""
+msgstr ""
 
-#
-# File: src/properties.py, line: 114
-#: mcomix/properties_dialog.py:79
+#: mcomix/archive_tools.py:186
 #, python-format
-msgid "%d comments"
-msgstr "%d komentar"
+msgid "! Could not read %s"
+msgstr ""
+
+#: mcomix/status.py:42
+msgid "Show page numbers"
+msgstr ""
+
+#: mcomix/status.py:44
+msgid "Show file numbers"
+msgstr ""
+
+#: mcomix/status.py:46
+msgid "Show resolution"
+msgstr ""
+
+#: mcomix/status.py:48
+msgid "Show path"
+msgstr ""
+
+#: mcomix/status.py:50
+msgid "Show filename"
+msgstr ""
+
+#: mcomix/status.py:52
+msgid "Show filesize"
+msgstr ""
+
+#: mcomix/bookmark_dialog.py:17
+msgid "Edit Bookmarks"
+msgstr ""
+
+#: mcomix/bookmark_dialog.py:51
+msgid "Type"
+msgstr ""
 
 #
-# File: src/properties.py, line: 126
-# File: src/properties.py, line: 160
-#: mcomix/properties_dialog.py:127
-msgid "Accessed"
-msgstr "Diakses"
+# File: src/bookmark.py, line: 255
+# File: src/edit.py, line: 267
+#: mcomix/bookmark_dialog.py:52 mcomix/edit_comment_area.py:34
+#: mcomix/keybindings_editor.py:36
+msgid "Name"
+msgstr "Nama"
 
-#
-# File: src/properties.py, line: 128
-# File: src/properties.py, line: 162
-#: mcomix/properties_dialog.py:129
-msgid "Modified"
-msgstr "Dimodifikasi"
-
-#
-# File: src/properties.py, line: 130
-# File: src/properties.py, line: 164
-#: mcomix/properties_dialog.py:131
-msgid "Permissions"
-msgstr "Hak Akses"
-
-#
-# File: src/properties.py, line: 131
-# File: src/properties.py, line: 165
-#: mcomix/properties_dialog.py:132
-msgid "Owner"
-msgstr "Pemilik"
+#: mcomix/bookmark_dialog.py:56
+msgid "Added"
+msgstr ""
 
 #: mcomix/run.py:42
 msgid "[OPTION...] [PATH]"
@@ -2004,6 +1852,807 @@ msgstr ""
 msgid "No version of the Python Imaging Library was found on your system."
 msgstr ""
 
+#: mcomix/thumbnail_tools.py:224
+#, python-format
+msgid "! Could not save thumbnail \"%(thumbpath)s\": %(error)s"
+msgstr ""
+
+#: mcomix/file_provider.py:105
+#, python-format
+msgid "Invalid path: '%s'"
+msgstr ""
+
+#
+# File: src/filehandler.py, line: 217
+#: mcomix/file_provider.py:135 mcomix/file_handler.py:267
+#, python-format
+msgid "Could not open %s: Permission denied."
+msgstr "Tak dapat membuka %s: Hak akses ditolak."
+
+#
+# File: src/bookmark.py, line: 229
+#: mcomix/openwith_menu.py:23
+#, fuzzy
+msgid "_Edit commands"
+msgstr "Sunting bookmark"
+
+#
+# File: src/filehandler.py, line: 411
+#: mcomix/image_tools.py:650
+msgid "Unknown filetype"
+msgstr "Tipe berkas tak diketahui"
+
+#: mcomix/archive_extractor.py:47
+#, python-format
+msgid "Non-supported archive format: %s"
+msgstr ""
+
+#: mcomix/archive_extractor.py:191 mcomix/archive_extractor.py:209
+#, python-format
+msgid "! Extraction error: %s"
+msgstr ""
+
+#
+# File: src/edit.py, line: 168
+# File: src/edit.py, line: 285
+#: mcomix/edit_image_area.py:69 mcomix/edit_comment_area.py:55
+msgid "Remove from archive"
+msgstr "Hapus dari arsip"
+
+#
+# File: src/filehandler.py, line: 285
+#: mcomix/file_handler.py:146
+#, python-format
+msgid "No images in '%s'"
+msgstr "Tak ada citra di '%s'"
+
+#
+# File: src/filehandler.py, line: 213
+#: mcomix/file_handler.py:264
+#, python-format
+msgid "Could not open %s: No such file."
+msgstr "Tak dapat membuka %s: Tak ada berkas."
+
+#: mcomix/file_handler.py:364
+#, python-format
+msgid "Continue reading from page %d?"
+msgstr ""
+
+#: mcomix/file_handler.py:365
+#, python-format
+msgid ""
+"You stopped reading here on %(date)s, %(time)s. If you choose \"Yes\", "
+"reading will resume on page %(page)d. Otherwise, the first page will be "
+"loaded."
+msgstr ""
+
+#: mcomix/file_handler.py:664
+#, python-format
+msgid "! Corrupt preferences file \"%s\", deleting..."
+msgstr ""
+
+#: mcomix/archive/sevenzip_external.py:155
+#, python-format
+msgid "Extraction of %(archivefile)s might have failed: %(error)s"
+msgstr ""
+
+#: mcomix/archive/zip.py:50
+#, python-format
+msgid ""
+"%(filename)s's extracted size is %(actual_size)d bytes, but should be "
+"%(expected_size)d bytes. The archive might be corrupt or in an unsupported "
+"format."
+msgstr ""
+
+#: mcomix/archive/password.py:14
+msgid "The archive is password-protected:"
+msgstr ""
+
+#
+# File: src/filechooser.py, line: 39
+#: mcomix/file_chooser_base_dialog.py:49
+msgid "Save"
+msgstr "Simpan"
+
+#
+# File: src/filechooser.py, line: 75
+#: mcomix/file_chooser_base_dialog.py:86
+msgid "All files"
+msgstr "Semua berkas"
+
+#
+# File: src/filechooser.py, line: 78
+#: mcomix/file_chooser_base_dialog.py:129
+#, fuzzy
+msgid "All archives"
+msgstr "Semua arsip"
+
+#
+# File: src/filechooser.py, line: 82
+#: mcomix/file_chooser_base_dialog.py:135
+#, fuzzy, python-format
+msgid "%s archives"
+msgstr "Arsip %s"
+
+#
+# File: src/filechooser.py, line: 171
+# File: src/filechooser.py, line: 249
+#: mcomix/file_chooser_base_dialog.py:145
+msgid "All images"
+msgstr "Semua gambar"
+
+#
+# File: src/filechooser.py, line: 171
+# File: src/filechooser.py, line: 249
+#: mcomix/file_chooser_base_dialog.py:151
+#, fuzzy, python-format
+msgid "%s images"
+msgstr "Citra %s"
+
+#
+# File: src/filechooser.py, line: 125
+#: mcomix/file_chooser_base_dialog.py:228
+#, python-format
+msgid "A file named '%s' already exists. Do you want to replace it?"
+msgstr "Berkas bernama '%s' telah ada. Anda ingin menggantinya?"
+
+#
+# File: src/filechooser.py, line: 128
+#: mcomix/file_chooser_base_dialog.py:230
+msgid "Replacing it will overwrite its contents."
+msgstr "Mengganti berkas akan menimpa isinya."
+
+#: mcomix/edit_dialog.py:40
+msgid "_Import"
+msgstr ""
+
+#
+# File: src/edit.py, line: 50
+#: mcomix/edit_dialog.py:55
+msgid "Images"
+msgstr "Citra"
+
+#
+# File: src/comment.py, line: 16
+# File: src/preferences.py, line: 288
+#: mcomix/edit_dialog.py:56
+#, fuzzy
+msgid "Comment files"
+msgstr "Komentar"
+
+#
+# File: src/edit.py, line: 99
+#: mcomix/edit_dialog.py:134
+msgid "The new archive could not be saved!"
+msgstr "Berkas baru tak dapat disimpan!"
+
+#
+# File: src/edit.py, line: 101
+#: mcomix/edit_dialog.py:135
+msgid "The original files have not been removed."
+msgstr "Berkas asli belum dihapus."
+
+#
+# File: src/edit.py, line: 115
+#: mcomix/edit_dialog.py:153
+msgid "Archives are stored as ZIP files."
+msgstr "Arsip disimpan sebagai berkas ZIP."
+
+#
+# File: src/ui.py, line: 69
+#: mcomix/pageselect.py:20 mcomix/ui.py:101 mcomix/ui.py:102
+msgid "_Go"
+msgstr "_Ke"
+
+#
+# File: src/preferences.py, line: 230
+#: mcomix/pageselect.py:21
+#, fuzzy
+msgid "_Cancel"
+msgstr "Tembolok"
+
+#: mcomix/pageselect.py:40
+#, python-format
+msgid " of %s"
+msgstr ""
+
+#: mcomix/openwith.py:71
+#, python-format
+msgid "'%s' is disabled for archives."
+msgstr ""
+
+#: mcomix/openwith.py:90
+#, python-format
+msgid "Could not run command %(cmdlabel)s: %(exception)s"
+msgstr ""
+
+#: mcomix/openwith.py:138
+msgid "Command line is empty."
+msgstr ""
+
+#: mcomix/openwith.py:181
+msgid "Incomplete escape sequence. For a literal '%', use '%%'."
+msgstr ""
+
+#: mcomix/openwith.py:185
+msgid "Incomplete quote sequence. For a literal '\"', use '%\"'."
+msgstr ""
+
+#
+# File: src/edit.py, line: 115
+#: mcomix/openwith.py:201
+#, fuzzy
+msgid "File-related variables can only be used for files."
+msgstr "Arsip disimpan sebagai berkas ZIP."
+
+#
+# File: src/edit.py, line: 115
+#: mcomix/openwith.py:205
+#, fuzzy
+msgid "Archive-related variables can only be used for archives."
+msgstr "Arsip disimpan sebagai berkas ZIP."
+
+#: mcomix/openwith.py:247
+#, python-format
+msgid "Invalid escape sequence: %%%s"
+msgstr ""
+
+#: mcomix/openwith.py:270
+msgid "Edit external commands"
+msgstr ""
+
+#: mcomix/openwith.py:280
+msgid "Add _separator"
+msgstr ""
+
+#
+# File: src/comment.py, line: 16
+# File: src/preferences.py, line: 288
+#: mcomix/openwith.py:291
+#, fuzzy
+msgid "Run _command"
+msgstr "Komentar"
+
+#: mcomix/openwith.py:354
+msgid "This is a separator pseudo-command."
+msgstr ""
+
+#: mcomix/openwith.py:365
+#, python-format
+msgid "\"%s\" does not have a valid working directory."
+msgstr ""
+
+#: mcomix/openwith.py:368
+#, python-format
+msgid "\"%s\" does not appear to have a valid executable."
+msgstr ""
+
+#
+# File: src/comment.py, line: 16
+# File: src/preferences.py, line: 288
+#: mcomix/openwith.py:377
+#, fuzzy
+msgid "Command label"
+msgstr "Komentar"
+
+#
+# File: src/ui.py, line: 36
+#: mcomix/openwith.py:470
+#, fuzzy
+msgid "Preview:"
+msgstr "Halaman _sebelumnya"
+
+#: mcomix/openwith.py:478
+#, python-format
+msgid ""
+"Please refer to the <a href=\"%s\">external command documentation</a> for a "
+"list of usable variables and other hints."
+msgstr ""
+
+#: mcomix/openwith.py:486
+msgid "Label"
+msgstr ""
+
+#
+# File: src/comment.py, line: 16
+# File: src/preferences.py, line: 288
+#: mcomix/openwith.py:486
+#, fuzzy
+msgid "Command"
+msgstr "Komentar"
+
+#
+# File: src/thumbremover.py, line: 58
+#: mcomix/openwith.py:486
+#, fuzzy
+msgid "Working directory"
+msgstr "Direktori miniatur"
+
+#
+# File: src/filechooser.py, line: 86
+#: mcomix/openwith.py:500
+#, fuzzy
+msgid "Disabled in archives"
+msgstr "Arsip Tar"
+
+#: mcomix/openwith.py:555
+msgid "Save changes to commands?"
+msgstr ""
+
+#: mcomix/openwith.py:556
+msgid ""
+"You have made changes to the list of external commands that have not been "
+"saved yet. Press \"Yes\" to save all changes, or \"No\" to discard them."
+msgstr ""
+
+#
+# File: src/comment.py, line: 53
+#: mcomix/comment_dialog.py:94
+#, python-format
+msgid "Could not read %s"
+msgstr "Tak dapat membaca %s"
+
+#
+# File: src/library.py, line: 769
+#: mcomix/library/control_area.py:70
+#, fuzzy
+msgid "_Search:"
+msgstr "Cari"
+
+#
+# File: src/library.py, line: 774
+#: mcomix/library/control_area.py:76
+msgid ""
+"Display only those books that have the specified text string in their full "
+"path. The search is not case sensitive."
+msgstr ""
+"Hanya tampilkan buku yang mempunyai benang teks di alamat penuh mereka. "
+"Pencarian tidak sensitif huruf."
+
+#: mcomix/library/control_area.py:85
+msgid "_Watch list"
+msgstr ""
+
+#: mcomix/library/control_area.py:92
+msgid "Open the watchlist management dialog."
+msgstr ""
+
+#
+# File: src/ui.py, line: 63
+#: mcomix/library/control_area.py:95
+#, fuzzy
+msgid "_Open list"
+msgstr "Buk_a terkini"
+
+#
+# File: src/library.py, line: 806
+#: mcomix/library/control_area.py:101
+msgid "Open the selected book."
+msgstr "Buka buku terpilih."
+
+#: mcomix/library/control_area.py:150
+#, python-format
+msgid "Finished reading on %(date)s, %(time)s"
+msgstr ""
+
+#: mcomix/library/collection_area.py:79
+msgid "Library collections"
+msgstr ""
+
+#: mcomix/library/collection_area.py:81 mcomix/library/book_area.py:149
+msgid "_Add..."
+msgstr ""
+
+#
+# File: src/library.py, line: 793
+#: mcomix/library/collection_area.py:82 mcomix/library/book_area.py:150
+msgid "Add more books to the library."
+msgstr "Tambah lebih banyak buku ke pustaka."
+
+#: mcomix/library/collection_area.py:84
+msgid "New"
+msgstr ""
+
+#
+# File: src/library.py, line: 800
+#: mcomix/library/collection_area.py:85
+msgid "Add a new empty collection."
+msgstr "Tambah koleksi kosong baru."
+
+#: mcomix/library/collection_area.py:87
+msgid "Re_name"
+msgstr ""
+
+#: mcomix/library/collection_area.py:88
+msgid "Renames the selected collection."
+msgstr ""
+
+#: mcomix/library/collection_area.py:90
+msgid "_Duplicate"
+msgstr ""
+
+#: mcomix/library/collection_area.py:91
+msgid "Creates a duplicate of the selected collection."
+msgstr ""
+
+#: mcomix/library/collection_area.py:93
+msgid "_Clean up"
+msgstr ""
+
+#: mcomix/library/collection_area.py:94
+msgid "Removes no longer existant books from the collection."
+msgstr ""
+
+#: mcomix/library/collection_area.py:96 mcomix/library/watchlist.py:71
+msgid "_Remove"
+msgstr ""
+
+#: mcomix/library/collection_area.py:97
+msgid "Deletes the selected collection."
+msgstr ""
+
+#
+# File: src/library.py, line: 202
+#: mcomix/library/collection_area.py:146 mcomix/library/backend_types.py:203
+msgid "All books"
+msgstr "Semua buku"
+
+#
+# File: src/library.py, line: 854
+#: mcomix/library/collection_area.py:159
+msgid "Add new collection?"
+msgstr "Tambah koleksi baru?"
+
+#
+# File: src/library.py, line: 856
+#: mcomix/library/collection_area.py:160
+msgid "Please enter a name for the new collection."
+msgstr "Silakan masukkan nama untuk koleksi baru."
+
+#
+# File: src/library.py, line: 876
+#: mcomix/library/collection_area.py:181
+#, python-format
+msgid "Could not add a new collection called '%s'."
+msgstr "Tak dapat menambah koleksi baru bernama '%s'."
+
+#
+# File: src/library.py, line: 275
+# File: src/library.py, line: 881
+#: mcomix/library/collection_area.py:186 mcomix/library/collection_area.py:282
+msgid "A collection by that name already exists."
+msgstr "Koleksi dengan nama tersebut telah ada."
+
+#: mcomix/library/collection_area.py:197 mcomix/library/book_area.py:547
+#, python-format
+msgid "Removed %d book from the library."
+msgid_plural "Removed %d books from the library."
+msgstr[0] ""
+msgstr[1] ""
+
+#
+# File: src/library.py, line: 251
+#: mcomix/library/collection_area.py:256
+msgid "Rename collection?"
+msgstr "Ganti nama koleksi?"
+
+#
+# File: src/library.py, line: 253
+#: mcomix/library/collection_area.py:257
+msgid "Please enter a new name for the selected collection."
+msgstr "Silakan masukkan nama baru untuk koleksi terpilih."
+
+#
+# File: src/library.py, line: 271
+#: mcomix/library/collection_area.py:278
+#, python-format
+msgid "Could not change the name to '%s'."
+msgstr "Tak dapat mengubah nama ke '%s'."
+
+#
+# File: src/library.py, line: 285
+#: mcomix/library/collection_area.py:292
+msgid "Could not duplicate collection."
+msgstr "Tak dapat menduplikasi koleksi."
+
+#
+# File: src/library.py, line: 382
+#: mcomix/library/collection_area.py:419
+msgid "Root"
+msgstr "Root"
+
+#
+# File: src/library.py, line: 386
+#: mcomix/library/collection_area.py:423
+#, python-format
+msgid ""
+"Put the collection '%(subcollection)s' in the collection "
+"'%(supercollection)s'."
+msgstr "Taruh koleksi '%(subcollection)s' di koleksi '%(supercollection)s'."
+
+#
+# File: src/library.py, line: 407
+#: mcomix/library/collection_area.py:443
+#, python-format
+msgid "Add books to '%s'."
+msgstr "Tambah buku ke '%s'."
+
+#
+# File: src/library.py, line: 411
+#: mcomix/library/collection_area.py:447
+#, python-format
+msgid ""
+"Move books from '%(source collection)s' to '%(destination collection)s'."
+msgstr ""
+"Pindah buku dari '%(source collection)s' ke '%(destination collection)s'."
+
+#: mcomix/library/book_area.py:140
+msgid "Library books"
+msgstr ""
+
+#: mcomix/library/book_area.py:142
+msgid "_Open"
+msgstr ""
+
+#: mcomix/library/book_area.py:143
+msgid "Opens the selected books for viewing."
+msgstr ""
+
+#: mcomix/library/book_area.py:146
+msgid "Open _without closing library"
+msgstr ""
+
+#: mcomix/library/book_area.py:147
+msgid "Opens the selected books, but keeps the library window open."
+msgstr ""
+
+#: mcomix/library/book_area.py:153
+msgid "Remove from this _collection"
+msgstr ""
+
+#: mcomix/library/book_area.py:154
+msgid "Removes the selected books from the current collection."
+msgstr ""
+
+#: mcomix/library/book_area.py:157
+msgid "Remove from the _library"
+msgstr ""
+
+#: mcomix/library/book_area.py:158
+msgid "Completely removes the selected books from the library."
+msgstr ""
+
+#: mcomix/library/book_area.py:161
+msgid "_Remove and delete from disk"
+msgstr ""
+
+#: mcomix/library/book_area.py:162
+msgid "Deletes the selected books from disk."
+msgstr ""
+
+#
+# File: src/librarybackend.py, line: 272
+# File: src/librarybackend.py, line: 274
+#: mcomix/library/book_area.py:165 mcomix/ui.py:36
+#, fuzzy
+msgid "_Copy"
+msgstr "(Salin)"
+
+#
+# File: src/library.py, line: 806
+#: mcomix/library/book_area.py:166
+#, fuzzy
+msgid "Copies the selected book's path to clipboard."
+msgstr "Buka buku terpilih."
+
+#: mcomix/library/book_area.py:168
+msgid "_Sort"
+msgstr ""
+
+#: mcomix/library/book_area.py:169
+msgid "Changes the sort order of the library."
+msgstr ""
+
+#: mcomix/library/book_area.py:170
+msgid "Cover si_ze"
+msgstr ""
+
+#: mcomix/library/book_area.py:171
+msgid "Changes the book cover size."
+msgstr ""
+
+#: mcomix/library/book_area.py:175
+msgid "Book name"
+msgstr ""
+
+#: mcomix/library/book_area.py:176
+msgid "Full path"
+msgstr ""
+
+#: mcomix/library/book_area.py:178
+msgid "Date added"
+msgstr ""
+
+#: mcomix/library/book_area.py:189
+msgid "Huge"
+msgstr ""
+
+#: mcomix/library/book_area.py:191
+msgid "Large"
+msgstr ""
+
+#: mcomix/library/book_area.py:195
+msgid "Small"
+msgstr ""
+
+#: mcomix/library/book_area.py:197
+msgid "Tiny"
+msgstr ""
+
+#: mcomix/library/book_area.py:199
+msgid "Custom..."
+msgstr ""
+
+#: mcomix/library/book_area.py:404
+msgid "Set library cover size"
+msgstr ""
+
+#
+# File: src/library.py, line: 588
+#: mcomix/library/book_area.py:525
+#, fuzzy, python-format
+msgid "Removed %(num)d book from '%(collection)s'."
+msgid_plural "Removed %(num)d books from '%(collection)s'."
+msgstr[0] "Hapus %(num)d buku dari '%(collection)s'."
+msgstr[1] "Hapus %(num)d buku dari '%(collection)s'."
+
+#
+# File: src/library.py, line: 597
+#: mcomix/library/book_area.py:565
+msgid "Remove books from the library?"
+msgstr "Hapus buku dari pustaka?"
+
+#
+# File: src/library.py, line: 599
+#: mcomix/library/book_area.py:566
+#, fuzzy
+msgid ""
+"The selected books will be removed from the library and permanently deleted. "
+"Are you sure that you want to continue?"
+msgstr ""
+"Buku terpilih akan dihapus dari pustaka (tapi berkas aslinya akan tetap tak "
+"tersentuh). Anda yakin ingin melanjutkan?"
+
+#: mcomix/library/watchlist.py:26
+msgid "Library watch list"
+msgstr ""
+
+#: mcomix/library/watchlist.py:28
+msgid "_Scan now"
+msgstr ""
+
+#: mcomix/library/watchlist.py:44
+msgid "Directory"
+msgstr ""
+
+#
+# File: src/library.py, line: 862
+#: mcomix/library/watchlist.py:56
+#, fuzzy
+msgid "Collection"
+msgstr "Koleksi baru"
+
+#: mcomix/library/watchlist.py:64
+msgid "With subdirectories"
+msgstr ""
+
+#: mcomix/library/watchlist.py:69
+msgid "_Add"
+msgstr ""
+
+#
+# File: src/filechooser.py, line: 195
+#: mcomix/library/watchlist.py:88
+#, fuzzy
+msgid "Automatically scan for new books when library is _opened"
+msgstr "Otomatis menambah buku ke koleksi ini"
+
+#: mcomix/library/main_dialog.py:84
+msgid "Scanning for new books..."
+msgstr ""
+
+#: mcomix/library/main_dialog.py:99
+#, python-format
+msgid "Added new book '%(bookname)s' from directory '%(directory)s'."
+msgstr ""
+
+#
+# File: src/library.py, line: 588
+#: mcomix/library/main_dialog.py:102
+#, fuzzy, python-format
+msgid "Added %(count)d new books from directory '%(directory)s'."
+msgstr "Hapus %(num)d buku dari '%(collection)s'."
+
+#: mcomix/library/main_dialog.py:109
+#, python-format
+msgid "No new books found in directory '%s'."
+msgstr ""
+
+#: mcomix/library/main_dialog.py:169
+msgid "! You need an sqlite wrapper to use the library."
+msgstr ""
+
+#
+# File: src/library.py, line: 910
+#: mcomix/library/add_progress_dialog.py:22
+msgid "Adding books"
+msgstr "Menambah buku"
+
+#
+# File: src/library.py, line: 930
+#: mcomix/library/add_progress_dialog.py:45
+#, fuzzy
+msgid "Added books:"
+msgstr "Buku yang ditambah"
+
+#
+# File: src/library.py, line: 952
+#: mcomix/library/add_progress_dialog.py:74
+#, python-format
+msgid "Adding '%s'..."
+msgstr "Menambah '%s'..."
+
+#: mcomix/library/backend.py:133 mcomix/library/backend.py:146
+#, python-format
+msgid "! Non-existant book #%i"
+msgstr ""
+
+#: mcomix/library/backend.py:164
+#, python-format
+msgid "! Could not get cover for book \"%s\""
+msgstr ""
+
+#: mcomix/library/backend.py:211 mcomix/library/backend.py:243
+#: mcomix/library/backend.py:251 mcomix/library/backend.py:278
+msgid "Recent"
+msgstr ""
+
+#: mcomix/library/backend.py:347
+#, python-format
+msgid "! Could not add book \"%s\" to the library"
+msgstr ""
+
+#: mcomix/library/backend.py:385
+#, python-format
+msgid "! Could not add collection \"%s\""
+msgstr ""
+
+#: mcomix/library/backend.py:398
+#, python-format
+msgid "! Could not add book %(book)s to collection %(collection)s"
+msgstr ""
+
+#: mcomix/library/backend.py:425
+#, python-format
+msgid "! Could not rename collection to \"%s\""
+msgstr ""
+
+#
+# File: src/librarybackend.py, line: 272
+# File: src/librarybackend.py, line: 274
+#: mcomix/library/backend.py:436 mcomix/library/backend.py:438
+msgid "(Copy)"
+msgstr "(Salin)"
+
+#: mcomix/library/backend.py:538
+msgid "Could not determine library database version!"
+msgstr ""
+
+#: mcomix/library/backend.py:567
+#, python-format
+msgid "Upgrading library database version from %(from)d to %(to)d."
+msgstr ""
+
 #
 # File: src/preferences.py, line: 279
 #: mcomix/slideshow.py:43
@@ -2011,273 +2660,103 @@ msgstr ""
 msgid "Stop slideshow"
 msgstr "Presentasi"
 
-#: mcomix/status.py:42
-msgid "Show page numbers"
-msgstr ""
-
-#: mcomix/status.py:44
-msgid "Show file numbers"
-msgstr ""
-
-#: mcomix/status.py:46
-msgid "Show resolution"
-msgstr ""
-
-#: mcomix/status.py:48
-msgid "Show path"
-msgstr ""
-
-#: mcomix/status.py:50
-msgid "Show filename"
-msgstr ""
-
-#: mcomix/status.py:52
-msgid "Show filesize"
-msgstr ""
-
 #
-# File: src/archive.py, line: 301
-#: mcomix/strings.py:10 mcomix/strings.py:19
-msgid "ZIP archive"
-msgstr "Arsip ZIP"
+# File: src/library.py, line: 789
+#: mcomix/file_chooser_library_dialog.py:18
+msgid "Add books"
+msgstr "Tambah buku"
 
-#
-# File: src/archive.py, line: 305
-#: mcomix/strings.py:11
-msgid "RAR archive"
-msgstr "Arsip RAR"
-
-#
-# File: src/archive.py, line: 302
-#: mcomix/strings.py:12
-msgid "Tar archive"
-msgstr "Arsip Tar"
-
-#
-# File: src/archive.py, line: 303
-#: mcomix/strings.py:13
-msgid "Gzip compressed tar archive"
-msgstr "Arsip tar terkompres Gzip"
-
-#
-# File: src/archive.py, line: 304
-#: mcomix/strings.py:14
-msgid "Bzip2 compressed tar archive"
-msgstr "Arsip tar terkompres Bzip2"
-
-#
-# File: src/archive.py, line: 303
-#: mcomix/strings.py:15
-#, fuzzy
-msgid "XZ compressed tar archive"
-msgstr "Arsip tar terkompres Gzip"
-
-#: mcomix/strings.py:16
-msgid "PDF document"
-msgstr ""
-
-#: mcomix/strings.py:17
-msgid "7z archive"
-msgstr ""
-
-#: mcomix/strings.py:18
-msgid "LHA archive"
-msgstr ""
-
-#: mcomix/strings.py:20
-msgid "MobiPocket ebook"
-msgstr ""
-
-#: mcomix/strings.py:24
-msgid "Original vision/developer of Comix"
-msgstr ""
-
-#: mcomix/strings.py:25 mcomix/strings.py:26 mcomix/strings.py:27
-#: mcomix/strings.py:28
-msgid "MComix developer"
-msgstr ""
-
-#
-# File: src/about.py, line: 77
-#: mcomix/strings.py:31 mcomix/strings.py:32 mcomix/strings.py:33
-#: mcomix/strings.py:34
-msgid "Simplified Chinese translation"
-msgstr "Terjemahan bahasa China yang disederhanakan"
-
-#
-# File: src/about.py, line: 78
-#: mcomix/strings.py:35 mcomix/strings.py:36
-msgid "Spanish translation"
-msgstr "Terjemahan bahasa Spanyol"
-
-#
-# File: src/about.py, line: 79
-#: mcomix/strings.py:37
-msgid "Brazilian Portuguese translation"
-msgstr "Terjemahan bahasa Portugis Brasil"
-
-#
-# File: src/about.py, line: 81
-#: mcomix/strings.py:38
-msgid "German translation and Nautilus thumbnailer"
-msgstr "Terjemahan bahasa Jerman dan pembuat miniatur gambar Nautilus"
-
-#
-# File: src/about.py, line: 94
-#: mcomix/strings.py:39
-#, fuzzy
-msgid "German translation"
-msgstr "Terjemahan bahasa Persia"
-
-#
-# File: src/about.py, line: 82
-#: mcomix/strings.py:40 mcomix/strings.py:41 mcomix/strings.py:42
-msgid "Italian translation"
-msgstr "Terjemahan bahasa Italia"
-
-#
-# File: src/about.py, line: 83
-#: mcomix/strings.py:43
-msgid "Dutch translation"
-msgstr "Terjemahan bahasa Belanda"
-
-#
-# File: src/about.py, line: 84
-#: mcomix/strings.py:44 mcomix/strings.py:45 mcomix/strings.py:46
-#: mcomix/strings.py:47
-msgid "French translation"
-msgstr "Terjemahan bahasa Prancis"
-
-#
-# File: src/about.py, line: 85
-#: mcomix/strings.py:48
-#, fuzzy
-msgid "Polish translatin"
-msgstr "Terjemahan bahasa Polandia"
-
-#
-# File: src/about.py, line: 85
-#: mcomix/strings.py:49
-msgid "Polish translation"
-msgstr "Terjemahan bahasa Polandia"
-
-#
-# File: src/about.py, line: 86
-#: mcomix/strings.py:50
-msgid "Greek translation"
-msgstr "Terjemahan bahasa Yunani"
-
-#
-# File: src/about.py, line: 87
-#: mcomix/strings.py:51
-msgid "Catalan translation"
-msgstr "Terjemahan bahasa Catalan"
-
-#
-# File: src/about.py, line: 88
-#: mcomix/strings.py:52 mcomix/strings.py:53
-msgid "Traditional Chinese translation"
-msgstr "Terjemahan bahasa China tradisional"
-
-#
-# File: src/about.py, line: 89
-#: mcomix/strings.py:54 mcomix/strings.py:55 mcomix/strings.py:56
-msgid "Japanese translation"
-msgstr "Terjemahan bahasa Jepang"
-
-#
-# File: src/about.py, line: 90
-#: mcomix/strings.py:57
-msgid "Hungarian translation"
-msgstr "Terjemahan bahasa Hungaria"
-
-#
-# File: src/about.py, line: 91
-#: mcomix/strings.py:58 mcomix/strings.py:59
-msgid "Russian translation"
-msgstr "Terjemahan bahasa Rusia"
-
-#
-# File: src/about.py, line: 92
-#: mcomix/strings.py:60
-msgid "Croatian translation"
-msgstr "Terjemahan bahasa Kroasia"
-
-#
-# File: src/about.py, line: 93
-#: mcomix/strings.py:61 mcomix/strings.py:62 mcomix/strings.py:63
-msgid "Korean translation"
-msgstr "Terjemahan bahasa Korea"
-
-#
-# File: src/about.py, line: 94
-#: mcomix/strings.py:64
-msgid "Persian translation"
-msgstr "Terjemahan bahasa Persia"
-
-#
-# File: src/about.py, line: 95
-#: mcomix/strings.py:65
-msgid "Indonesian translation"
-msgstr "Terjemahan bahasa Indonesia"
-
-#
-# File: src/about.py, line: 96
-#: mcomix/strings.py:66
-msgid "Czech translation"
-msgstr "Terjemahan bahasa Ceko"
-
-#: mcomix/strings.py:67
-msgid "Ukrainian translation"
-msgstr ""
-
-#
-# File: src/about.py, line: 82
-#: mcomix/strings.py:68
-#, fuzzy
-msgid "Galician translation"
-msgstr "Terjemahan bahasa Italia"
-
-#: mcomix/strings.py:69 mcomix/strings.py:70
-msgid "Swedish translation"
-msgstr ""
-
-#
-# File: src/about.py, line: 86
-#: mcomix/strings.py:71
-#, fuzzy
-msgid "Hebrew translation"
-msgstr "Terjemahan bahasa Yunani"
-
-#
-# File: src/about.py, line: 82
-#: mcomix/strings.py:72
-#, fuzzy
-msgid "Lithuanian translation"
-msgstr "Terjemahan bahasa Italia"
-
-#
-# File: src/about.py, line: 97
-#: mcomix/strings.py:75
-msgid "Icon design"
-msgstr "Desain ikon"
-
-#: mcomix/strings.py:76
-msgid "Vector icon"
-msgstr ""
-
-#: mcomix/thumbnail_tools.py:224
+#: mcomix/archive_packer.py:59
 #, python-format
-msgid "! Could not save thumbnail \"%(thumbpath)s\": %(error)s"
+msgid "! Could not create archive at path \"%s\""
+msgstr ""
+
+#: mcomix/archive_packer.py:73 mcomix/archive_packer.py:98
+#, python-format
+msgid ""
+"! Could not add file %(sourcefile)s to archive %(archivefile)s, aborting..."
+msgstr ""
+
+#: mcomix/callback.py:87
+#, python-format
+msgid "! Callback %(function)r failed: %(error)s"
+msgstr ""
+
+#: mcomix/bookmark_menu.py:25
+msgid "Add _Bookmark"
+msgstr ""
+
+#: mcomix/bookmark_menu.py:27
+msgid "_Edit Bookmarks..."
 msgstr ""
 
 #
-# File: src/librarybackend.py, line: 272
-# File: src/librarybackend.py, line: 274
-#: mcomix/ui.py:36 mcomix/library/book_area.py:165
+# File: src/edit.py, line: 255
+#: mcomix/edit_comment_area.py:21
 #, fuzzy
-msgid "_Copy"
-msgstr "(Salin)"
+msgid ""
+"Please note that the only files that are automatically added to this list "
+"are those files in archives that MComix recognizes as comments."
+msgstr ""
+"Perlu dicatat bahwa satu-satunya berkas yang secara otomatis ditambah ke "
+"senarai ini adalah berkas di dalam arsip yang Comix kenali sebagai komentar."
+
+#: mcomix/icons.py:61
+#, python-format
+msgid "! Could not load icon \"%s\""
+msgstr ""
+
+#: mcomix/about_dialog.py:29
+#, python-format
+msgid "%s is an image viewer specifically designed to handle comic books."
+msgstr ""
+
+#
+# File: src/about.py, line: 57
+#: mcomix/about_dialog.py:31
+msgid "It reads ZIP, RAR and tar archives, as well as plain image files."
+msgstr ""
+"Comix membaca arsip ZIP, RAR dan tar, begitu pula dengan berkas citra biasa."
+
+#: mcomix/about_dialog.py:35
+#, python-format
+msgid "%s is licensed under the terms of the GNU General Public License."
+msgstr ""
+
+#: mcomix/about_dialog.py:37
+#, python-format
+msgid "A copy of this license can be obtained from %s"
+msgstr ""
+
+#: mcomix/bookmark_backend.py:149
+#, python-format
+msgid "! Could not parse bookmarks file %s"
+msgstr ""
+
+#: mcomix/bookmark_backend.py:210
+#, python-format
+msgid "Replace existing bookmark on page %s?"
+msgid_plural "Replace existing bookmarks on pages %s?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mcomix/bookmark_backend.py:215
+#, python-format
+msgid ""
+"The current book already contains marked pages. Do you want to replace them "
+"with a new bookmark on page %d?"
+msgstr ""
+
+#: mcomix/bookmark_backend.py:218
+msgid ""
+"Selecting \"No\" will create a new bookmark without affecting the other "
+"bookmarks."
+msgstr ""
+
+#: mcomix/keybindings_editor.py:43
+#, python-format
+msgid "Key %d"
+msgstr ""
 
 #: mcomix/ui.py:37
 msgid "Copies the current page to clipboard."
@@ -2653,481 +3132,6 @@ msgstr ""
 #: mcomix/ui.py:201
 msgid "_Library..."
 msgstr "Pus_taka..."
-
-#: mcomix/worker_thread.py:74
-#, python-format
-msgid "! Worker thread processing %(function)r failed: %(error)s"
-msgstr ""
-
-#: mcomix/archive/password.py:14
-msgid "The archive is password-protected:"
-msgstr ""
-
-#: mcomix/archive/sevenzip_external.py:155
-#, python-format
-msgid "Extraction of %(archivefile)s might have failed: %(error)s"
-msgstr ""
-
-#: mcomix/archive/zip.py:50
-#, python-format
-msgid ""
-"%(filename)s's extracted size is %(actual_size)d bytes, but should be "
-"%(expected_size)d bytes. The archive might be corrupt or in an unsupported "
-"format."
-msgstr ""
-
-#
-# File: src/library.py, line: 910
-#: mcomix/library/add_progress_dialog.py:22
-msgid "Adding books"
-msgstr "Menambah buku"
-
-#
-# File: src/library.py, line: 930
-#: mcomix/library/add_progress_dialog.py:43
-#, fuzzy
-msgid "Added books:"
-msgstr "Buku yang ditambah"
-
-#
-# File: src/library.py, line: 952
-#: mcomix/library/add_progress_dialog.py:72
-#, python-format
-msgid "Adding '%s'..."
-msgstr "Menambah '%s'..."
-
-#: mcomix/library/backend.py:133 mcomix/library/backend.py:146
-#, python-format
-msgid "! Non-existant book #%i"
-msgstr ""
-
-#: mcomix/library/backend.py:164
-#, python-format
-msgid "! Could not get cover for book \"%s\""
-msgstr ""
-
-#: mcomix/library/backend.py:211 mcomix/library/backend.py:243
-#: mcomix/library/backend.py:251 mcomix/library/backend.py:278
-msgid "Recent"
-msgstr ""
-
-#: mcomix/library/backend.py:347
-#, python-format
-msgid "! Could not add book \"%s\" to the library"
-msgstr ""
-
-#: mcomix/library/backend.py:385
-#, python-format
-msgid "! Could not add collection \"%s\""
-msgstr ""
-
-#: mcomix/library/backend.py:398
-#, python-format
-msgid "! Could not add book %(book)s to collection %(collection)s"
-msgstr ""
-
-#: mcomix/library/backend.py:425
-#, python-format
-msgid "! Could not rename collection to \"%s\""
-msgstr ""
-
-#
-# File: src/librarybackend.py, line: 272
-# File: src/librarybackend.py, line: 274
-#: mcomix/library/backend.py:436 mcomix/library/backend.py:438
-msgid "(Copy)"
-msgstr "(Salin)"
-
-#: mcomix/library/backend.py:538
-msgid "Could not determine library database version!"
-msgstr ""
-
-#: mcomix/library/backend.py:567
-#, python-format
-msgid "Upgrading library database version from %(from)d to %(to)d."
-msgstr ""
-
-#
-# File: src/library.py, line: 202
-#: mcomix/library/backend_types.py:203 mcomix/library/collection_area.py:146
-msgid "All books"
-msgstr "Semua buku"
-
-#: mcomix/library/book_area.py:140
-msgid "Library books"
-msgstr ""
-
-#: mcomix/library/book_area.py:142
-msgid "_Open"
-msgstr ""
-
-#: mcomix/library/book_area.py:143
-msgid "Opens the selected books for viewing."
-msgstr ""
-
-#: mcomix/library/book_area.py:146
-msgid "Open _without closing library"
-msgstr ""
-
-#: mcomix/library/book_area.py:147
-msgid "Opens the selected books, but keeps the library window open."
-msgstr ""
-
-#: mcomix/library/book_area.py:149 mcomix/library/collection_area.py:81
-msgid "_Add..."
-msgstr ""
-
-#
-# File: src/library.py, line: 793
-#: mcomix/library/book_area.py:150 mcomix/library/collection_area.py:82
-msgid "Add more books to the library."
-msgstr "Tambah lebih banyak buku ke pustaka."
-
-#: mcomix/library/book_area.py:153
-msgid "Remove from this _collection"
-msgstr ""
-
-#: mcomix/library/book_area.py:154
-msgid "Removes the selected books from the current collection."
-msgstr ""
-
-#: mcomix/library/book_area.py:157
-msgid "Remove from the _library"
-msgstr ""
-
-#: mcomix/library/book_area.py:158
-msgid "Completely removes the selected books from the library."
-msgstr ""
-
-#: mcomix/library/book_area.py:161
-msgid "_Remove and delete from disk"
-msgstr ""
-
-#: mcomix/library/book_area.py:162
-msgid "Deletes the selected books from disk."
-msgstr ""
-
-#
-# File: src/library.py, line: 806
-#: mcomix/library/book_area.py:166
-#, fuzzy
-msgid "Copies the selected book's path to clipboard."
-msgstr "Buka buku terpilih."
-
-#: mcomix/library/book_area.py:168
-msgid "_Sort"
-msgstr ""
-
-#: mcomix/library/book_area.py:169
-msgid "Changes the sort order of the library."
-msgstr ""
-
-#: mcomix/library/book_area.py:170
-msgid "Cover si_ze"
-msgstr ""
-
-#: mcomix/library/book_area.py:171
-msgid "Changes the book cover size."
-msgstr ""
-
-#: mcomix/library/book_area.py:175
-msgid "Book name"
-msgstr ""
-
-#: mcomix/library/book_area.py:176
-msgid "Full path"
-msgstr ""
-
-#: mcomix/library/book_area.py:178
-msgid "Date added"
-msgstr ""
-
-#: mcomix/library/book_area.py:189
-msgid "Huge"
-msgstr ""
-
-#: mcomix/library/book_area.py:191
-msgid "Large"
-msgstr ""
-
-#: mcomix/library/book_area.py:195
-msgid "Small"
-msgstr ""
-
-#: mcomix/library/book_area.py:197
-msgid "Tiny"
-msgstr ""
-
-#: mcomix/library/book_area.py:199
-msgid "Custom..."
-msgstr ""
-
-#: mcomix/library/book_area.py:404
-msgid "Set library cover size"
-msgstr ""
-
-#
-# File: src/library.py, line: 588
-#: mcomix/library/book_area.py:525
-#, fuzzy, python-format
-msgid "Removed %(num)d book from '%(collection)s'."
-msgid_plural "Removed %(num)d books from '%(collection)s'."
-msgstr[0] "Hapus %(num)d buku dari '%(collection)s'."
-msgstr[1] "Hapus %(num)d buku dari '%(collection)s'."
-
-#: mcomix/library/book_area.py:547 mcomix/library/collection_area.py:194
-#, python-format
-msgid "Removed %d book from the library."
-msgid_plural "Removed %d books from the library."
-msgstr[0] ""
-msgstr[1] ""
-
-#
-# File: src/library.py, line: 597
-#: mcomix/library/book_area.py:565
-msgid "Remove books from the library?"
-msgstr "Hapus buku dari pustaka?"
-
-#
-# File: src/library.py, line: 599
-#: mcomix/library/book_area.py:566
-#, fuzzy
-msgid ""
-"The selected books will be removed from the library and permanently deleted. "
-"Are you sure that you want to continue?"
-msgstr ""
-"Buku terpilih akan dihapus dari pustaka (tapi berkas aslinya akan tetap tak "
-"tersentuh). Anda yakin ingin melanjutkan?"
-
-#: mcomix/library/collection_area.py:79
-msgid "Library collections"
-msgstr ""
-
-#: mcomix/library/collection_area.py:84
-msgid "New"
-msgstr ""
-
-#
-# File: src/library.py, line: 800
-#: mcomix/library/collection_area.py:85
-msgid "Add a new empty collection."
-msgstr "Tambah koleksi kosong baru."
-
-#: mcomix/library/collection_area.py:87
-msgid "Re_name"
-msgstr ""
-
-#: mcomix/library/collection_area.py:88
-msgid "Renames the selected collection."
-msgstr ""
-
-#: mcomix/library/collection_area.py:90
-msgid "_Duplicate"
-msgstr ""
-
-#: mcomix/library/collection_area.py:91
-msgid "Creates a duplicate of the selected collection."
-msgstr ""
-
-#: mcomix/library/collection_area.py:93
-msgid "_Clean up"
-msgstr ""
-
-#: mcomix/library/collection_area.py:94
-msgid "Removes no longer existant books from the collection."
-msgstr ""
-
-#: mcomix/library/collection_area.py:96 mcomix/library/watchlist.py:71
-msgid "_Remove"
-msgstr ""
-
-#: mcomix/library/collection_area.py:97
-msgid "Deletes the selected collection."
-msgstr ""
-
-#
-# File: src/library.py, line: 854
-#: mcomix/library/collection_area.py:158
-msgid "Add new collection?"
-msgstr "Tambah koleksi baru?"
-
-#
-# File: src/library.py, line: 856
-#: mcomix/library/collection_area.py:159
-msgid "Please enter a name for the new collection."
-msgstr "Silakan masukkan nama untuk koleksi baru."
-
-#
-# File: src/library.py, line: 876
-#: mcomix/library/collection_area.py:178
-#, python-format
-msgid "Could not add a new collection called '%s'."
-msgstr "Tak dapat menambah koleksi baru bernama '%s'."
-
-#
-# File: src/library.py, line: 275
-# File: src/library.py, line: 881
-#: mcomix/library/collection_area.py:183 mcomix/library/collection_area.py:276
-msgid "A collection by that name already exists."
-msgstr "Koleksi dengan nama tersebut telah ada."
-
-#
-# File: src/library.py, line: 251
-#: mcomix/library/collection_area.py:252
-msgid "Rename collection?"
-msgstr "Ganti nama koleksi?"
-
-#
-# File: src/library.py, line: 253
-#: mcomix/library/collection_area.py:253
-msgid "Please enter a new name for the selected collection."
-msgstr "Silakan masukkan nama baru untuk koleksi terpilih."
-
-#
-# File: src/library.py, line: 271
-#: mcomix/library/collection_area.py:272
-#, python-format
-msgid "Could not change the name to '%s'."
-msgstr "Tak dapat mengubah nama ke '%s'."
-
-#
-# File: src/library.py, line: 285
-#: mcomix/library/collection_area.py:286
-msgid "Could not duplicate collection."
-msgstr "Tak dapat menduplikasi koleksi."
-
-#
-# File: src/library.py, line: 382
-#: mcomix/library/collection_area.py:413
-msgid "Root"
-msgstr "Root"
-
-#
-# File: src/library.py, line: 386
-#: mcomix/library/collection_area.py:417
-#, python-format
-msgid ""
-"Put the collection '%(subcollection)s' in the collection "
-"'%(supercollection)s'."
-msgstr "Taruh koleksi '%(subcollection)s' di koleksi '%(supercollection)s'."
-
-#
-# File: src/library.py, line: 407
-#: mcomix/library/collection_area.py:437
-#, python-format
-msgid "Add books to '%s'."
-msgstr "Tambah buku ke '%s'."
-
-#
-# File: src/library.py, line: 411
-#: mcomix/library/collection_area.py:441
-#, python-format
-msgid ""
-"Move books from '%(source collection)s' to '%(destination collection)s'."
-msgstr ""
-"Pindah buku dari '%(source collection)s' ke '%(destination collection)s'."
-
-#
-# File: src/library.py, line: 769
-#: mcomix/library/control_area.py:70
-#, fuzzy
-msgid "_Search:"
-msgstr "Cari"
-
-#
-# File: src/library.py, line: 774
-#: mcomix/library/control_area.py:76
-msgid ""
-"Display only those books that have the specified text string in their full "
-"path. The search is not case sensitive."
-msgstr ""
-"Hanya tampilkan buku yang mempunyai benang teks di alamat penuh mereka. "
-"Pencarian tidak sensitif huruf."
-
-#: mcomix/library/control_area.py:85
-msgid "_Watch list"
-msgstr ""
-
-#: mcomix/library/control_area.py:92
-msgid "Open the watchlist management dialog."
-msgstr ""
-
-#
-# File: src/ui.py, line: 63
-#: mcomix/library/control_area.py:95
-#, fuzzy
-msgid "_Open list"
-msgstr "Buk_a terkini"
-
-#
-# File: src/library.py, line: 806
-#: mcomix/library/control_area.py:101
-msgid "Open the selected book."
-msgstr "Buka buku terpilih."
-
-#: mcomix/library/control_area.py:150
-#, python-format
-msgid "Finished reading on %(date)s, %(time)s"
-msgstr ""
-
-#: mcomix/library/main_dialog.py:84
-msgid "Scanning for new books..."
-msgstr ""
-
-#: mcomix/library/main_dialog.py:99
-#, python-format
-msgid "Added new book '%(bookname)s' from directory '%(directory)s'."
-msgstr ""
-
-#
-# File: src/library.py, line: 588
-#: mcomix/library/main_dialog.py:102
-#, fuzzy, python-format
-msgid "Added %(count)d new books from directory '%(directory)s'."
-msgstr "Hapus %(num)d buku dari '%(collection)s'."
-
-#: mcomix/library/main_dialog.py:109
-#, python-format
-msgid "No new books found in directory '%s'."
-msgstr ""
-
-#: mcomix/library/main_dialog.py:169
-msgid "! You need an sqlite wrapper to use the library."
-msgstr ""
-
-#: mcomix/library/watchlist.py:26
-msgid "Library watch list"
-msgstr ""
-
-#: mcomix/library/watchlist.py:28
-msgid "_Scan now"
-msgstr ""
-
-#: mcomix/library/watchlist.py:44
-msgid "Directory"
-msgstr ""
-
-#
-# File: src/library.py, line: 862
-#: mcomix/library/watchlist.py:56
-#, fuzzy
-msgid "Collection"
-msgstr "Koleksi baru"
-
-#: mcomix/library/watchlist.py:64
-msgid "With subdirectories"
-msgstr ""
-
-#: mcomix/library/watchlist.py:69
-msgid "_Add"
-msgstr ""
-
-#
-# File: src/filechooser.py, line: 195
-#: mcomix/library/watchlist.py:88
-#, fuzzy
-msgid "Automatically scan for new books when library is _opened"
-msgstr "Otomatis menambah buku ke koleksi ini"
 
 #
 # File: src/preferences.py, line: 263
