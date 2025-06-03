@@ -222,6 +222,12 @@ class _PreferencesDialog(Gtk.Dialog):
 
         page.add_row(self._create_pref_check_button(_('Save As opens at the last directory saved into'),
             'store last saved in directory', 'Open the Save As dialog at the directory in which the last file was saved.'))
+        
+
+        page.new_section(_('Navigation'))
+
+        page.add_row(self._create_pref_check_button(_('Left+Click navigates to next page'),
+            'mouse click flip page', 'Clicking inside the window flips to next page.'))
 
         return page
 
