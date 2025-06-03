@@ -209,12 +209,21 @@ def run():
         if portability.is_system_ui_dark_themed() == constants.SystemThemeLightness.DARK:
             settings.set_property('gtk-application-prefer-dark-theme', True)
 
-    from mcomix import main
+    from mcomix import main, overlay
     window = main.MainWindow(fullscreen = opts.fullscreen, is_slideshow = opts.slideshow,
             show_library = opts.library, manga_mode = opts.manga,
             double_page = opts.doublepage, zoom_mode = opts.zoommode,
             open_path = open_path, open_page = open_page)
     main.set_main_window(window)
+
+    overlay_window = overlay.PageOverlay(window)
+
+    # Hook into MComix page change events
+    def on_page_change(page_number, total_pages):
+        """Updates the overlay whenever the page changes."""
+        overlay_window.update_label(f"{page_number:03}/{total_pages}")
+
+    window.connect("page-changed", on_page_change)  # Ensure page updates
 
     if 'win32' != sys.platform:
         # Add a SIGCHLD handler to reap zombie processes.
